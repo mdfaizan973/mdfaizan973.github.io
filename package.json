@@ -19,6 +19,7 @@
     "react-animation-on-scroll": "^5.1.0",
     "react-bootstrap": "^2.7.2",
     "react-dom": "^18.2.0",
+    "react-github-calendar": "^3.4.0",
     "react-helmet": "^6.1.0",
     "react-icons": "^4.8.0",
     "react-scripts": "5.0.1",
