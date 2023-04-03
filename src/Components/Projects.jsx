@@ -13,10 +13,10 @@ export default function Projects() {
 
   return (
     <DIV className="top" id="projects">
-      <h1 className="proj-title">PROJECTS</h1>
+      <h1 className="project-title">PROJECTS</h1>
 
       <div className="project-tech-stack">
-        <div className="animation" data-aos="flip-right">
+        <div className="animation project-card" data-aos="flip-right">
           <div className="pro-img">
             <img src="https://user-images.githubusercontent.com/106812942/215109393-cfcfb68a-7de0-4554-9380-7d3b65e4f9b6.png" />
           </div>
@@ -43,7 +43,7 @@ export default function Projects() {
           </div>
         </div>
         <br />
-        <div className="animation" data-aos="flip-left">
+        <div className="animation project-card" data-aos="flip-left">
           <div className="pro-img">
             <img src="https://user-images.githubusercontent.com/106812942/214018158-224d47c0-2f3e-4a72-bc00-53ea918e6fdf.png" />
           </div>
@@ -72,7 +72,7 @@ export default function Projects() {
         </div>
         <br />
 
-        <div className="animation" data-aos="zoom-out">
+        <div className="animation project-card" data-aos="zoom-out">
           <div className="pro-img">
             <img src="https://user-images.githubusercontent.com/106812942/221214462-36c35e3a-f00e-4c5f-a874-aadc6a6503d2.png" />
           </div>
@@ -104,7 +104,7 @@ export default function Projects() {
         </div>
         <br />
 
-        <div className="animation" data-aos="zoom-in">
+        <div className="animation project-card" data-aos="zoom-in">
           <div className="pro-img">
             <img src="https://user-images.githubusercontent.com/106812942/218271324-c3071ba5-560d-4029-bcfe-9263fb982e5d.png" />
           </div>
@@ -136,7 +136,7 @@ export default function Projects() {
         </div>
 
         <br />
-        <div className="animation" data-aos="flip-left">
+        <div className="animation project-card" data-aos="flip-left">
           <div className="pro-img">
             <img src="https://user-images.githubusercontent.com/106812942/229482067-fc289bf3-4d15-478c-81ea-aebd54b5950e.jpg" />
           </div>

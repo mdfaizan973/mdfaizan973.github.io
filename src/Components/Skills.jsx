@@ -136,6 +136,7 @@ export default function Skills() {
                     ml={"32%"}
                     w={"32%"}
                     borderRadius="18px"
+                    className="skills-card-img"
                     src={el.image}
                   />
                   <Text fontSize={"1.7rem"}>{el.name}</Text>
