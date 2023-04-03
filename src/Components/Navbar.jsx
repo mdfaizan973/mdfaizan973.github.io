@@ -29,6 +29,8 @@ const Navbar = () => {
         zIndex="7"
         top="0"
         textTransform={"capitalize"}
+        // bg={"white"}
+        opacity={"0.8"}
       >
         <Flex
           justify={"space-between"}
@@ -41,8 +43,8 @@ const Navbar = () => {
               <Image
                 src={
                   colorMode == "dark"
-                    ? "https://avatars.githubusercontent.com/u/106812942?v=4"
-                    : "https://avatars.githubusercontent.com/u/106812942?v=4"
+                    ? "https://user-images.githubusercontent.com/106812942/229487542-e60efe9e-10a0-4e3d-9d61-327fe8515666.png"
+                    : "https://user-images.githubusercontent.com/106812942/229487542-e60efe9e-10a0-4e3d-9d61-327fe8515666.png"
                 }
                 height={"3.5rem"}
               />

@@ -134,6 +134,37 @@ export default function Projects() {
             </div>
           </div>
         </div>
+
+        <br />
+        <div className="animation" data-aos="flip-left">
+          <div className="pro-img">
+            <img src="https://user-images.githubusercontent.com/106812942/229482067-fc289bf3-4d15-478c-81ea-aebd54b5950e.jpg" />
+          </div>
+          <div className="pro-dis">
+            <h1 className="title-pro">SmileKart</h1>
+            <h1>
+              An ecommerce websilt,Where user can buy all the A to Z products.
+            </h1>
+            <div className="dep-btn">
+              <Button>
+                <a
+                  href="https://github.com/narender24681/innate-partner-2755"
+                  target="_blank"
+                >
+                  Github
+                </a>
+              </Button>
+              <Button>
+                <a
+                  href="https://incandescent-cassata-f56374.netlify.app/"
+                  target="_blank"
+                >
+                  Live
+                </a>
+              </Button>
+            </div>
+          </div>
+        </div>
       </div>
       <br />
       <hr />
