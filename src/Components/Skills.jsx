@@ -139,7 +139,9 @@ export default function Skills() {
                     className="skills-card-img"
                     src={el.image}
                   />
-                  <Text fontSize={"1.7rem"}>{el.name}</Text>
+                  <Text fontSize={"1.7rem"} className="skills-card-name">
+                    {el.name}
+                  </Text>
                 </AnimationOnScroll>
               </Box>
             </div>
