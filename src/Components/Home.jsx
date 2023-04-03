@@ -13,7 +13,7 @@ import { ImLinkedin } from "react-icons/im";
 import { FaGithub } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { AiOutlineArrowDown, AiOutlineDownload } from "react-icons/ai";
-// import Kaustubh_Nawade_Resume from "../Kaustubh_Nawade_Resume.pdf";
+import Md_Faizan_Resume from "../Md_Faizan_Resume.pdf";
 const Home = () => {
   return (
     <>
@@ -49,8 +49,7 @@ const Home = () => {
             <Button
               width="max-content"
               colorScheme={"teal"}
-              id="resume-button-1"
-              className="nav-link resume"
+              id="resume-button-2"
               onClick={() => {
                 window.open(
                   "https://drive.google.com/file/d/17ti5ypZ77muuZC6yulNyPwNkgbKfpEM2/view?usp=sharing",
@@ -58,12 +57,19 @@ const Home = () => {
                 );
               }}
             >
-              Resume
+              <a
+                id="resume-link-2"
+                href={Md_Faizan_Resume}
+                target="_blank"
+                download="Md_Faizan_Resume.pdf"
+              >
+                Resume
+              </a>
               <Text as="span" ml={"2"}>
                 <AiOutlineDownload fontSize={"1.2rem"} />
               </Text>
             </Button>
-
+            {/* "https://drive.google.com/file/d/17ti5ypZ77muuZC6yulNyPwNkgbKfpEM2/view?usp=sharing" */}
             <Flex gap="3">
               <Link
                 id="contact-linkedin"

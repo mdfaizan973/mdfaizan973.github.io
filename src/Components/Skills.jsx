@@ -56,7 +56,7 @@ const sliderData1 = [
 ];
 export default function Skills() {
   const SlickArrowLeft = ({ currentSlide, slideCount, ...props }) => (
-    <Box position="absolute" marginTop="160px" marginLeft="40px" zIndex={1}>
+    <Box position="absolute" marginTop="250px" marginLeft="40px" zIndex={1}>
       <ChevronLeftIcon
         boxSize={10}
         background="gray.50"

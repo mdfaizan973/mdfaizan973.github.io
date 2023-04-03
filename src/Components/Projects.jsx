@@ -13,7 +13,12 @@ export default function Projects() {
 
   return (
     <DIV className="top" id="projects">
-      <h1 className="project-title">PROJECTS</h1>
+      <h1
+        className="project-title"
+        style={{ fontSize: "3rem", marginTop: "5px" }}
+      >
+        PROJECTS
+      </h1>
 
       <div className="project-tech-stack">
         <div className="animation project-card" data-aos="flip-right">
