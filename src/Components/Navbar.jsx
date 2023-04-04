@@ -11,6 +11,7 @@ import React, { useState } from "react";
 import { MoonIcon, SunIcon, HamburgerIcon } from "@chakra-ui/icons";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Helmet } from "react-helmet";
+import Md_Faizan_Resume from "../Md_Faizan_Resume.pdf";
 
 const Navbar = () => {
   const { colorMode, toggleColorMode } = useColorMode();
@@ -93,9 +94,10 @@ const Navbar = () => {
             >
               contact
             </Link>
+
             <Button
               width="max-content"
-              colorScheme={"teal"}
+              colorScheme={"red"}
               id="resume-button-1"
               className="nav-link resume"
               onClick={() => {
@@ -105,7 +107,14 @@ const Navbar = () => {
                 );
               }}
             >
-              Resume
+              <a
+                id="resume-link-1"
+                href={Md_Faizan_Resume}
+                target="_blank"
+                download="Md_Faizan_Resume.pdf"
+              >
+                Resume
+              </a>
               <Text as="span" ml={"2"}>
                 <AiOutlineDownload fontSize={"1.2rem"} />
               </Text>

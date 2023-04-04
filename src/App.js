@@ -7,10 +7,11 @@ import Skills from "./Components/Skills";
 import Projects from "./Components/Projects";
 import Github from "./Components/Github";
 import Contacts from "./Components/Contacts";
-
+import AnimatedCursor from "react-animated-cursor";
 function App() {
   return (
     <div className="App">
+      <AnimatedCursor />
       <Navbar />
       <Home />
       <About />

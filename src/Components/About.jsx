@@ -22,9 +22,9 @@ const About = () => {
           <Image
             className="home-img"
             margin="auto"
-            border="4px solid teal"
+            border="2px solid grey"
             borderRadius="50%"
-            src="https://avatars.githubusercontent.com/u/106812942?v=4"
+            src="https://media.licdn.com/dms/image/D4D03AQG82Ma0WlH0BQ/profile-displayphoto-shrink_400_400/0/1678001977005?e=1686182400&v=beta&t=dCJPe0E7W0QLprLCznN3e1QRhpT91l_IDrMBVrsv67I"
           />
         </Box>
         <Box

@@ -56,7 +56,7 @@ const sliderData1 = [
 ];
 export default function Skills() {
   const SlickArrowLeft = ({ currentSlide, slideCount, ...props }) => (
-    <Box position="absolute" marginTop="250px" marginLeft="40px" zIndex={1}>
+    <Box position="absolute" marginTop="200px" marginLeft="40px" zIndex={1}>
       <ChevronLeftIcon
         boxSize={10}
         background="gray.50"
@@ -154,7 +154,7 @@ export default function Skills() {
 }
 
 const DIV = styled.div`
-  margin-top: 20px;
+  margin-top: 120px;
   height: 50vh;
   h1 {
     font-size: 3rem;

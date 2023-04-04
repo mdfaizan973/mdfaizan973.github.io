@@ -14,6 +14,7 @@ import { FaGithub } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { AiOutlineArrowDown, AiOutlineDownload } from "react-icons/ai";
 import Md_Faizan_Resume from "../Md_Faizan_Resume.pdf";
+import styled from "styled-components";
 const Home = () => {
   return (
     <>
@@ -48,8 +49,9 @@ const Home = () => {
           <Flex gap={"8"} align="center">
             <Button
               width="max-content"
-              colorScheme={"teal"}
+              colorScheme={"red"}
               id="resume-button-2"
+              className="nav-link resume"
               onClick={() => {
                 window.open(
                   "https://drive.google.com/file/d/17ti5ypZ77muuZC6yulNyPwNkgbKfpEM2/view?usp=sharing",
@@ -58,7 +60,7 @@ const Home = () => {
               }}
             >
               <a
-                id="resume-link-2"
+                id="resume-link-1"
                 href={Md_Faizan_Resume}
                 target="_blank"
                 download="Md_Faizan_Resume.pdf"
