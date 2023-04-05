@@ -1,4 +1,4 @@
-import { Box, Flex, Heading, Image, Link } from "@chakra-ui/react";
+import { Box, Card, Flex, Heading, Image, Link } from "@chakra-ui/react";
 import React from "react";
 import GitHubCalendar from "react-github-calendar";
 
@@ -13,11 +13,14 @@ const Github = () => {
           width={["330px", "450px", "870px"]}
           margin="auto"
           marginBottom="30px"
+          // border={"1px solid black"}
         >
-          <GitHubCalendar
-            username="mdfaizan973"
-            className="react-activity-calendar"
-          />
+          <Card p={"15px"}>
+            <GitHubCalendar
+              username="mdfaizan973"
+              className="react-activity-calendar"
+            />
+          </Card>
         </Box>
         <Flex
           flexDir={{ base: "column", lg: "row" }}

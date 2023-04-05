@@ -154,7 +154,7 @@ export default function Skills() {
 }
 
 const DIV = styled.div`
-  margin-top: 120px;
+  margin-top: 170px;
   height: 50vh;
   h1 {
     font-size: 3rem;

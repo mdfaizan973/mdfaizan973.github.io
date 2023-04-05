@@ -3,7 +3,7 @@ import "animate.css/animate.min.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { AnimationOnScroll } from "react-animation-on-scroll";
-import { Button, Heading } from "@chakra-ui/react";
+import { Button, Card, Heading } from "@chakra-ui/react";
 import styled from "styled-components";
 
 export default function Projects() {
@@ -182,6 +182,7 @@ export default function Projects() {
         </div>
 
         <br />
+
         <div className="animation project-card" data-aos="flip-left">
           <div className="pro-img">
             <img src="https://user-images.githubusercontent.com/106812942/229482067-fc289bf3-4d15-478c-81ea-aebd54b5950e.jpg" />
@@ -232,7 +233,7 @@ const DIV = styled.div`
     width: 50%;
     height: 100%;
     margin: 10px auto;
-    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    box-shadow: rgba(60, 64, 67, 0.15) 0px 1px 2px 1px,
       rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
     display: flex;
     align-items: center;
