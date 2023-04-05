@@ -60,7 +60,7 @@ const Home = () => {
               }}
             >
               <a
-                id="resume-link-1"
+                id="resume-link-2"
                 href={Md_Faizan_Resume}
                 target="_blank"
                 download="Md_Faizan_Resume.pdf"

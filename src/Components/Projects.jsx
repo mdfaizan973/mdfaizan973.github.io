@@ -20,19 +20,27 @@ export default function Projects() {
         PROJECTS
       </h1>
 
-      <div className="project-tech-stack">
+      <div>
         <div className="animation project-card" data-aos="flip-right">
           <div className="pro-img">
             <img src="https://user-images.githubusercontent.com/106812942/215109393-cfcfb68a-7de0-4554-9380-7d3b65e4f9b6.png" />
           </div>
           <div className="pro-dis">
-            <h1 className="title-pro">Skin-Care</h1>
-            <h1>
+            <h1 className="title-pro project-title">Skin-Care</h1>
+            <h1 className="project-description">
               An E-commerce websilt,Where user can buy skin related products.
             </h1>
+
+            <h2
+              style={{ fontSize: "1rem", color: "red" }}
+              className="project-tech-stack"
+            >
+              HTML,CSS,JS
+            </h2>
             <div className="dep-btn">
               <Button>
                 <a
+                  className="project-github-link"
                   href="https://github.com/mdfaizan973/SkinCare_Clone"
                   target="_blank"
                 >
@@ -40,7 +48,11 @@ export default function Projects() {
                 </a>
               </Button>
               <Button>
-                <a href="https://my-skincares.netlify.app/" target="_blank">
+                <a
+                  className="project-deployed-link"
+                  href="https://my-skincares.netlify.app/"
+                  target="_blank"
+                >
                   Live
                 </a>
               </Button>
@@ -53,14 +65,22 @@ export default function Projects() {
             <img src="https://user-images.githubusercontent.com/106812942/214018158-224d47c0-2f3e-4a72-bc00-53ea918e6fdf.png" />
           </div>
           <div className="pro-dis">
-            <h1 className="title-pro">Fz-Shoes</h1>
-            <h1>
+            <h1 className="title-pro project-title">Fz-Shoes</h1>
+            <h1 className="project-description">
               An ecommerce websilt,Where user can buy all the products related
               to shoes.
             </h1>
+            <h2
+              style={{ fontSize: "1rem", color: "red" }}
+              className="project-tech-stack"
+            >
+              React,Axios,Json-Server,React-Router-Dom
+            </h2>
+
             <div className="dep-btn">
               <Button>
                 <a
+                  className="project-github-link"
                   href="https://github.com/mdfaizan973/thoughtless-scarecrow-7735"
                   target="_blank"
                 >
@@ -68,7 +88,11 @@ export default function Projects() {
                 </a>
               </Button>
               <Button>
-                <a href="https://fzshoes.netlify.app/" target="_blank">
+                <a
+                  className="project-deployed-link"
+                  href="https://fzshoes.netlify.app/"
+                  target="_blank"
+                >
                   Live
                 </a>
               </Button>
@@ -82,14 +106,22 @@ export default function Projects() {
             <img src="https://user-images.githubusercontent.com/106812942/221214462-36c35e3a-f00e-4c5f-a874-aadc6a6503d2.png" />
           </div>
           <div className="pro-dis">
-            <h1 className="title-pro">Sweets-Flowers</h1>
-            <h1>
+            <h1 className="title-pro project-title">Sweets-Flowers</h1>
+            <h1 className="project-description">
               An E-commerce website, Where user can buy flowers, chocolates and
               beautiful gifts for burthdays or party.
             </h1>
+            <h2
+              style={{ fontSize: "1rem", color: "red" }}
+              className="project-tech-stack"
+            >
+              React,Axios,Json-Server,React-Router-Dom
+            </h2>
+
             <div className="dep-btn">
               <Button>
                 <a
+                  className="project-github-link"
                   href="https://github.com/mdfaizan973/interesting-vase-9902"
                   target="_blank"
                 >
@@ -98,6 +130,7 @@ export default function Projects() {
               </Button>
               <Button>
                 <a
+                  className="project-deployed-link"
                   href="https://spectacular-mandazi-b54fe5.netlify.app/"
                   target="_blank"
                 >
@@ -114,14 +147,21 @@ export default function Projects() {
             <img src="https://user-images.githubusercontent.com/106812942/218271324-c3071ba5-560d-4029-bcfe-9263fb982e5d.png" />
           </div>
           <div className="pro-dis">
-            <h1 className="title-pro">Furniture-Stock</h1>
-            <h1>
+            <h1 className="title-pro project-title">Furniture-Stock</h1>
+            <h1 className="project-description">
               An E-commerce website, Where user can buy home or furniture
               related products.
             </h1>
+            <h2
+              style={{ fontSize: "1rem", color: "red" }}
+              className="project-tech-stack"
+            >
+              HTML,CSS,JS,Json,Server
+            </h2>
             <div className="dep-btn">
               <Button>
                 <a
+                  className="project-github-link"
                   href="https://github.com/deepakChourasiya-aj/amiable-place-6800"
                   target="_blank"
                 >
@@ -130,6 +170,7 @@ export default function Projects() {
               </Button>
               <Button>
                 <a
+                  className="project-deployed-link"
                   href="https://sensational-druid-3f736c.netlify.app/"
                   target="_blank"
                 >
@@ -146,13 +187,20 @@ export default function Projects() {
             <img src="https://user-images.githubusercontent.com/106812942/229482067-fc289bf3-4d15-478c-81ea-aebd54b5950e.jpg" />
           </div>
           <div className="pro-dis">
-            <h1 className="title-pro">SmileKart</h1>
-            <h1>
+            <h1 className="title-pro project-title">SmileKart</h1>
+            <h1 className="project-description">
               An ecommerce websilt,Where user can buy all the A to Z products.
             </h1>
+            <h2
+              style={{ fontSize: "1rem", color: "red" }}
+              className="project-tech-stack"
+            >
+              React,Axios,Json-Server,React-Router-Dom,Redux
+            </h2>
             <div className="dep-btn">
               <Button>
                 <a
+                  className="project-github-link"
                   href="https://github.com/narender24681/innate-partner-2755"
                   target="_blank"
                 >
@@ -161,6 +209,7 @@ export default function Projects() {
               </Button>
               <Button>
                 <a
+                  className="project-deployed-link"
                   href="https://incandescent-cassata-f56374.netlify.app/"
                   target="_blank"
                 >
