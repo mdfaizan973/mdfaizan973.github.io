@@ -13,7 +13,7 @@ const About = () => {
         height={{ base: "95vh", md: "60vh", lg: "55vh" }}
         width="85%"
         margin="auto"
-        fontSize={"1.5rem"}
+        fontSize={"1.3rem"}
         id="about"
         // className="about section"
         flexDir={{ base: "column", md: "row", lg: "row" }}
