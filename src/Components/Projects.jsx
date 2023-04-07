@@ -81,7 +81,7 @@ export default function Projects() {
               <Button>
                 <a
                   className="project-github-link"
-                  href="https://github.com/mdfaizan973/thoughtless-scarecrow-7735"
+                  href="https://github.com/mdfaizan973/thoughtless-scarecrow-7735/tree/main/T-S-7735/fz_shoes"
                   target="_blank"
                 >
                   Github
