@@ -28,7 +28,10 @@ export default function Projects() {
           <div className="pro-dis">
             <h1 className="title-pro project-title">Skin-Care</h1>
             <h1 className="project-description">
-              An E-commerce websilt,Where user can buy skin related products.
+              An E-commerce websilt,Where user can buy skin related products.--
+              <span style={{ fontSize: "1rem", color: "teal" }}>
+                Individuel - Project
+              </span>
             </h1>
 
             <h2
@@ -68,7 +71,10 @@ export default function Projects() {
             <h1 className="title-pro project-title">Fz-Shoes</h1>
             <h1 className="project-description">
               An ecommerce websilt,Where user can buy all the products related
-              to shoes.
+              to shoes.--
+              <span style={{ fontSize: "1rem", color: "teal" }}>
+                Individuel - Project
+              </span>
             </h1>
             <h2
               style={{ fontSize: "1rem", color: "red" }}
@@ -109,7 +115,10 @@ export default function Projects() {
             <h1 className="title-pro project-title">Sweets-Flowers</h1>
             <h1 className="project-description">
               An E-commerce website, Where user can buy flowers, chocolates and
-              beautiful gifts for burthdays or party.
+              beautiful gifts for burthdays or party.--
+              <span style={{ fontSize: "1rem", color: "teal" }}>
+                Individuel - Project
+              </span>
             </h1>
             <h2
               style={{ fontSize: "1rem", color: "red" }}
@@ -150,7 +159,10 @@ export default function Projects() {
             <h1 className="title-pro project-title">Furniture-Stock</h1>
             <h1 className="project-description">
               An E-commerce website, Where user can buy home or furniture
-              related products.
+              related products.--
+              <span style={{ fontSize: "1rem", color: "teal" }}>
+                Group - Project
+              </span>
             </h1>
             <h2
               style={{ fontSize: "1rem", color: "red" }}
@@ -182,7 +194,6 @@ export default function Projects() {
         </div>
 
         <br />
-
         <div className="animation project-card" data-aos="flip-left">
           <div className="pro-img">
             <img src="https://user-images.githubusercontent.com/106812942/229482067-fc289bf3-4d15-478c-81ea-aebd54b5950e.jpg" />
@@ -190,7 +201,10 @@ export default function Projects() {
           <div className="pro-dis">
             <h1 className="title-pro project-title">SmileKart</h1>
             <h1 className="project-description">
-              An ecommerce websilt,Where user can buy all the A to Z products.
+              An ecommerce websilt,Where user can buy all the A to Z products.--
+              <span style={{ fontSize: "1rem", color: "teal" }}>
+                Group - Project
+              </span>
             </h1>
             <h2
               style={{ fontSize: "1rem", color: "red" }}
