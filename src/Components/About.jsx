@@ -1,30 +1,25 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Box, Flex, Image, Text } from "@chakra-ui/react";
 
 const About = () => {
   return (
-    <div>
-      <Text
-        fontSize="4xl"
-        fontWeight="600"
-        margin="auto"
-        textAlign="center"
-        id="about"
-      >
-        About
+    <>
+      <Text fontSize="4xl" fontWeight="600" margin="auto" textAlign="center">
+          About me
       </Text>
       <Flex
-        display={"flex"}
-        alignItems={"center"}
         height={{ base: "95vh", md: "60vh", lg: "55vh" }}
         width="85%"
         margin="auto"
-        fontSize={"1.3rem"}
-        flexDir={{ base: "column", md: "row", lg: "row" }}
-        // id="about"
+        id="about"
         className="about section"
+        flexDir={{ base: "column", md: "row", lg: "row" }}
       >
-        <Box width={{ base: "100%", md: "50%", lg: "35%" }} marginTop={"30px"}>
+        <Box
+          data-aos="fade-right"
+          width={{ base: "100%", md: "50%", lg: "35%" }}
+          marginTop={"30px"}
+        >
           <Image
             className="home-img"
             margin="auto"
@@ -40,6 +35,8 @@ const About = () => {
           alignContent="center"
           height="100%"
           width={{ base: "100%", md: "50%", lg: "65%" }}
+          fontSize={"1.3rem"}
+          data-aos="fade-left"
         >
           <Text id="user-detail-intro">
             A Full-Stack Web Developer specializing in MERN Stack with good
@@ -52,7 +49,7 @@ const About = () => {
           </Text>
         </Box>
       </Flex>
-    </div>
+    </>
   );
 };
 
