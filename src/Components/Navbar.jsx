@@ -66,13 +66,13 @@ const Navbar = () => {
             >
               home
             </Link>
-            {/* <Link
+            <Link
               onClick={() => setTitle("About")}
               href="#about"
               className="nav-link about"
             >
               about
-            </Link> */}
+            </Link>
             <Link
               onClick={() => setTitle("Skills")}
               href="#skills"
