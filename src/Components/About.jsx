@@ -1,6 +1,5 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { Box, Flex, Image, Text } from "@chakra-ui/react";
-
 const About = () => {
   return (
     <>
@@ -40,12 +39,12 @@ const About = () => {
         >
           <Text id="user-detail-intro">
             A Full-Stack Web Developer specializing in MERN Stack with good
-            proficiency in ReactJS, JavaScript, Redux, NodeJS, ExpressJS, Data
-            Structures and Algorithms. Has a Problem-Solving mindset and the
-            ability to perform well in a team. Acquired 1200+ hours of coding
-            and hands-on experience in cloning websites. Looking forward to
-            working as an accountable and competent professional in an exciting
-            tech organization.
+            proficiency in HTML, CSS, JS, ReactJS, Redux, NodeJS, ExpressJS,
+            MongoDB, Data Structures and Algorithms. Has a Problem-Solving
+            mindset and the ability to perform well in a team. Acquired 1200+
+            hours of coding and hands-on experience in cloning websites. Looking
+            forward to working as an accountable and competent professional in
+            an exciting tech organization.
           </Text>
         </Box>
       </Flex>
