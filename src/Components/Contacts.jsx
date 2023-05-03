@@ -24,7 +24,7 @@ export default function Contacts() {
   return (
     <div id="contact" style={{ textAlign: "center" }}>
       <h1 className="proj-title" style={{ fontSize: "3rem", marginTop: "5px" }}>
-        Contacts
+        Contact
       </h1>
 
       <Box
