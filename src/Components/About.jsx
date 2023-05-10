@@ -3,7 +3,14 @@ import { Box, Flex, Image, Text } from "@chakra-ui/react";
 const About = () => {
   return (
     <>
-      <Text fontSize="4xl" fontWeight="600" margin="auto" textAlign="center">
+      <Text
+        fontSize="4xl"
+        fontWeight="600"
+        margin="auto"
+        textAlign="center"
+        id="about"
+        className="about section"
+      >
         About me
       </Text>
       <Flex
@@ -11,7 +18,6 @@ const About = () => {
         width="85%"
         margin="auto"
         id="about"
-        className="about section"
         flexDir={{ base: "column", md: "row", lg: "row" }}
       >
         <Box
