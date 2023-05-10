@@ -30,7 +30,7 @@ const About = () => {
             margin="auto"
             border="2px solid grey"
             borderRadius="50%"
-            src="https://media.licdn.com/dms/image/D4D03AQG82Ma0WlH0BQ/profile-displayphoto-shrink_400_400/0/1678001977005?e=1686182400&v=beta&t=dCJPe0E7W0QLprLCznN3e1QRhpT91l_IDrMBVrsv67I"
+            src="https://media.licdn.com/dms/image/D4D03AQHtJGOsBvzWFg/profile-displayphoto-shrink_400_400/0/1683629918803?e=1689206400&v=beta&t=fosmzQMAjZmna-N1Cw5LvobbP7QAgusmwlsVK09kIUY"
           />
         </Box>
         <Box
