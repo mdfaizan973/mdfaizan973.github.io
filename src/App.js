@@ -8,10 +8,12 @@ import Projects from "./Components/Projects";
 import Github from "./Components/Github";
 import Contacts from "./Components/Contacts";
 import AnimatedCursor from "react-animated-cursor";
+// import Part from "./Components/Part";
 function App() {
   return (
     <div className="App">
       <AnimatedCursor />
+      {/* <Part /> */}
       <Navbar />
       <Home />
       <About />

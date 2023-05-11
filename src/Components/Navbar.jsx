@@ -12,6 +12,7 @@ import { MoonIcon, SunIcon, HamburgerIcon } from "@chakra-ui/icons";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Helmet } from "react-helmet";
 import Md_Faizan_Resume from "../Md_Faizan_Resume.pdf";
+import Sidebar from "./Sidebar";
 
 const Navbar = () => {
   const { colorMode, toggleColorMode } = useColorMode();
@@ -123,6 +124,9 @@ const Navbar = () => {
               {colorMode === "light" ? <MoonIcon /> : <SunIcon />}
             </Button>
           </Flex>
+          <Box display={{ lg: "none" }} marginRight="10px">
+            <Sidebar />
+          </Box>
         </Flex>
       </Box>
     </>
