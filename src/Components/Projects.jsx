@@ -11,6 +11,87 @@ export default function Projects() {
     AOS.init({ duration: 2500 });
   }, []);
 
+  let projectsarr = [
+    {
+      anim: "flip-right",
+      image:
+        "https://user-images.githubusercontent.com/106812942/215109393-cfcfb68a-7de0-4554-9380-7d3b65e4f9b6.png",
+      name: "Skin-Care",
+      dis: "An E-commerce websilt,Where user can buy skin related products.--",
+      pro: "Individuel - Project",
+      tstack: "HTML,CSS,JS",
+      github: "https://github.com/mdfaizan973/SkinCare_Clone",
+      link: "https://my-skincares.netlify.app/",
+    },
+    {
+      anim: "flip-right",
+      image:
+        "https://user-images.githubusercontent.com/106812942/214018158-224d47c0-2f3e-4a72-bc00-53ea918e6fdf.png",
+      name: "Fz-Shoes",
+      dis: "An ecommerce websilt,Where user can buy all the products related to shoes.--",
+      pro: "Individuel - Project",
+      tstack: "React,Axios,Json-Server,React-Router-Dom",
+      github:
+        "https://github.com/mdfaizan973/thoughtless-scarecrow-7735/tree/main/T-S-7735/fz_shoes",
+      link: "https://fzshoes.netlify.app/",
+    },
+    {
+      anim: "zoom-out",
+      image:
+        "https://user-images.githubusercontent.com/106812942/221214462-36c35e3a-f00e-4c5f-a874-aadc6a6503d2.png",
+      name: "Sweets-Flowers",
+      dis: "An E-commerce website, Where user can buy flowers, chocolates and beautiful gifts for burthdays or party.--",
+      pro: "Individuel - Project",
+      tstack: "React,Axios,Json-Server,React-Router-Dom",
+      github: "https://github.com/mdfaizan973/interesting-vase-9902",
+      link: "https://spectacular-mandazi-b54fe5.netlify.app/",
+    },
+    {
+      anim: "zoom-in",
+      image:
+        "https://user-images.githubusercontent.com/106812942/218271324-c3071ba5-560d-4029-bcfe-9263fb982e5d.png",
+      name: "Furniture-Stock",
+      dis: " An E-commerce website, Where user can buy home or furniture related products.--",
+      pro: "Group - Project",
+      tstack: "HTML,CSS,JS,Json,Server",
+      github: "https://github.com/deepakChourasiya-aj/amiable-place-6800",
+      link: "https://sensational-druid-3f736c.netlify.app/",
+    },
+    {
+      anim: "flip-left",
+      image:
+        "https://user-images.githubusercontent.com/106812942/229482067-fc289bf3-4d15-478c-81ea-aebd54b5950e.jpg",
+      name: "SmileKart",
+      dis: "An ecommerce websilt,Where user can buy all the A to Z products.--",
+      pro: "Group - Project",
+      tstack: "React,Axios,Json-Server,React-Router-Dom,Redux",
+      github: "https://github.com/narender24681/innate-partner-2755",
+      link: "https://incandescent-cassata-f56374.netlify.app/",
+    },
+    {
+      anim: "zoom-out",
+      image:
+        "https://github.com/mdfaizan973/mdfaizan973/assets/106812942/4eac3e09-97c4-4145-9cff-ce4c4ea5c93f",
+      name: "Clotho",
+      dis: "A Clothes websilt,Where user can buy dresses for mens, womens and kids.--",
+      pro: "Group - Project",
+      tstack: "React,Axios,React-Router-Dom,Redux,Node.js,MongooDB",
+      github: "https://github.com/hrithikvishwakarma001/incredible-birth-7157",
+      link: "https://clotho.vercel.app/",
+    },
+    {
+      anim: "flip-right",
+      image:
+        "https://github.com/mdfaizan973/mdfaizan973/assets/106812942/a3f0797e-71b4-4d55-a9f0-a48d058e1ddc",
+      name: "FitnessFuel",
+      dis: "A Fitness websilt,Where person can know about body health and fix his own daily routine.--",
+      pro: "Group - Project",
+      tstack: "React,Axios,React-Router-Dom,Redux,Node.js,MongooDB,Telwind CSS",
+      github: "https://github.com/VivekTomar03/FitnessFuel",
+      link: "https://mdfaizan973.github.io/",
+    },
+  ];
+
   return (
     <DIV className="top" id="projects">
       <h1
@@ -21,305 +102,49 @@ export default function Projects() {
       </h1>
 
       <div>
-        <div className="animation project-card" data-aos="flip-right">
-          <div className="pro-img">
-            <img src="https://user-images.githubusercontent.com/106812942/215109393-cfcfb68a-7de0-4554-9380-7d3b65e4f9b6.png" />
-          </div>
-          <div className="pro-dis">
-            <h1 className="title-pro project-title">Skin-Care</h1>
-            <h1 className="project-description">
-              An E-commerce websilt,Where user can buy skin related products.--
-              <span style={{ fontSize: "1rem", color: "teal" }}>
-                Individuel - Project
-              </span>
-            </h1>
+        {projectsarr.map((ele, i) => (
+          <div className="animation project-card" data-aos={ele.anim}>
+            <div className="pro-img">
+              <img src={ele.image} />
+            </div>
+            <div className="pro-dis">
+              <h1 className="title-pro project-title">{ele.name}</h1>
+              <h1 className="project-description">
+                {ele.dis}
+                <span style={{ fontSize: "1rem", color: "teal" }}>
+                  {ele.pro}
+                </span>
+              </h1>
 
-            <h2
-              style={{ fontSize: "1rem", color: "red" }}
-              className="project-tech-stack"
-            >
-              HTML,CSS,JS
-            </h2>
-            <div className="dep-btn">
-              <Button>
-                <a
-                  className="project-github-link"
-                  href="https://github.com/mdfaizan973/SkinCare_Clone"
-                  target="_blank"
-                >
-                  Github
-                </a>
-              </Button>
-              <Button>
-                <a
-                  className="project-deployed-link"
-                  href="https://my-skincares.netlify.app/"
-                  target="_blank"
-                >
-                  Live
-                </a>
-              </Button>
+              <h2
+                style={{ fontSize: "1rem", color: "red" }}
+                className="project-tech-stack"
+              >
+                {ele.tstack}
+              </h2>
+              <div className="dep-btn">
+                <Button>
+                  <a
+                    className="project-github-link"
+                    href={ele.github}
+                    target="_blank"
+                  >
+                    Github
+                  </a>
+                </Button>
+                <Button>
+                  <a
+                    className="project-deployed-link"
+                    href={ele.link}
+                    target="_blank"
+                  >
+                    Live
+                  </a>
+                </Button>
+              </div>
             </div>
           </div>
-        </div>
-        <br />
-        <div className="animation project-card" data-aos="flip-left">
-          <div className="pro-img">
-            <img src="https://user-images.githubusercontent.com/106812942/214018158-224d47c0-2f3e-4a72-bc00-53ea918e6fdf.png" />
-          </div>
-          <div className="pro-dis">
-            <h1 className="title-pro project-title">Fz-Shoes</h1>
-            <h1 className="project-description">
-              An ecommerce websilt,Where user can buy all the products related
-              to shoes.--
-              <span style={{ fontSize: "1rem", color: "teal" }}>
-                Individuel - Project
-              </span>
-            </h1>
-            <h2
-              style={{ fontSize: "1rem", color: "red" }}
-              className="project-tech-stack"
-            >
-              React,Axios,Json-Server,React-Router-Dom
-            </h2>
-
-            <div className="dep-btn">
-              <Button>
-                <a
-                  className="project-github-link"
-                  href="https://github.com/mdfaizan973/thoughtless-scarecrow-7735/tree/main/T-S-7735/fz_shoes"
-                  target="_blank"
-                >
-                  Github
-                </a>
-              </Button>
-              <Button>
-                <a
-                  className="project-deployed-link"
-                  href="https://fzshoes.netlify.app/"
-                  target="_blank"
-                >
-                  Live
-                </a>
-              </Button>
-            </div>
-          </div>
-        </div>
-        <br />
-
-        <div className="animation project-card" data-aos="zoom-out">
-          <div className="pro-img">
-            <img src="https://user-images.githubusercontent.com/106812942/221214462-36c35e3a-f00e-4c5f-a874-aadc6a6503d2.png" />
-          </div>
-          <div className="pro-dis">
-            <h1 className="title-pro project-title">Sweets-Flowers</h1>
-            <h1 className="project-description">
-              An E-commerce website, Where user can buy flowers, chocolates and
-              beautiful gifts for burthdays or party.--
-              <span style={{ fontSize: "1rem", color: "teal" }}>
-                Individuel - Project
-              </span>
-            </h1>
-            <h2
-              style={{ fontSize: "1rem", color: "red" }}
-              className="project-tech-stack"
-            >
-              React,Axios,Json-Server,React-Router-Dom
-            </h2>
-
-            <div className="dep-btn">
-              <Button>
-                <a
-                  className="project-github-link"
-                  href="https://github.com/mdfaizan973/interesting-vase-9902"
-                  target="_blank"
-                >
-                  Github
-                </a>
-              </Button>
-              <Button>
-                <a
-                  className="project-deployed-link"
-                  href="https://spectacular-mandazi-b54fe5.netlify.app/"
-                  target="_blank"
-                >
-                  Live
-                </a>
-              </Button>
-            </div>
-          </div>
-        </div>
-        <br />
-
-        <div className="animation project-card" data-aos="zoom-in">
-          <div className="pro-img">
-            <img src="https://user-images.githubusercontent.com/106812942/218271324-c3071ba5-560d-4029-bcfe-9263fb982e5d.png" />
-          </div>
-          <div className="pro-dis">
-            <h1 className="title-pro project-title">Furniture-Stock</h1>
-            <h1 className="project-description">
-              An E-commerce website, Where user can buy home or furniture
-              related products.--
-              <span style={{ fontSize: "1rem", color: "teal" }}>
-                Group - Project
-              </span>
-            </h1>
-            <h2
-              style={{ fontSize: "1rem", color: "red" }}
-              className="project-tech-stack"
-            >
-              HTML,CSS,JS,Json,Server
-            </h2>
-            <div className="dep-btn">
-              <Button>
-                <a
-                  className="project-github-link"
-                  href="https://github.com/deepakChourasiya-aj/amiable-place-6800"
-                  target="_blank"
-                >
-                  Github
-                </a>
-              </Button>
-              <Button>
-                <a
-                  className="project-deployed-link"
-                  href="https://sensational-druid-3f736c.netlify.app/"
-                  target="_blank"
-                >
-                  Live
-                </a>
-              </Button>
-            </div>
-          </div>
-        </div>
-
-        <br />
-        <div className="animation project-card" data-aos="flip-left">
-          <div className="pro-img">
-            <img src="https://user-images.githubusercontent.com/106812942/229482067-fc289bf3-4d15-478c-81ea-aebd54b5950e.jpg" />
-          </div>
-          <div className="pro-dis">
-            <h1 className="title-pro project-title">SmileKart</h1>
-            <h1 className="project-description">
-              An ecommerce websilt,Where user can buy all the A to Z products.--
-              <span style={{ fontSize: "1rem", color: "teal" }}>
-                Group - Project
-              </span>
-            </h1>
-            <h2
-              style={{ fontSize: "1rem", color: "red" }}
-              className="project-tech-stack"
-            >
-              React,Axios,Json-Server,React-Router-Dom,Redux
-            </h2>
-            <div className="dep-btn">
-              <Button>
-                <a
-                  className="project-github-link"
-                  href="https://github.com/narender24681/innate-partner-2755"
-                  target="_blank"
-                >
-                  Github
-                </a>
-              </Button>
-              <Button>
-                <a
-                  className="project-deployed-link"
-                  href="https://incandescent-cassata-f56374.netlify.app/"
-                  target="_blank"
-                >
-                  Live
-                </a>
-              </Button>
-            </div>
-          </div>
-        </div>
-
-        <div className="animation project-card" data-aos="zoom-out">
-          <div className="pro-img">
-            <img src="https://github.com/mdfaizan973/mdfaizan973/assets/106812942/4eac3e09-97c4-4145-9cff-ce4c4ea5c93f" />
-          </div>
-          <div className="pro-dis">
-            <h1 className="title-pro project-title">Clotho</h1>
-            <h1 className="project-description">
-              A Clothes websilt,Where user can buy dresses for mens, womens and
-              kids.--
-              <span style={{ fontSize: "1rem", color: "teal" }}>
-                Group - Project
-              </span>
-            </h1>
-            <h2
-              style={{ fontSize: "1rem", color: "red" }}
-              className="project-tech-stack"
-            >
-              React,Axios,React-Router-Dom,Redux,Node.js,MongooDB
-            </h2>
-            <div className="dep-btn">
-              <Button>
-                <a
-                  className="project-github-link"
-                  href="https://github.com/hrithikvishwakarma001/incredible-birth-7157"
-                  target="_blank"
-                >
-                  Github
-                </a>
-              </Button>
-              <Button>
-                <a
-                  className="project-deployed-link"
-                  href="https://clotho.vercel.app/"
-                  target="_blank"
-                >
-                  Live
-                </a>
-              </Button>
-            </div>
-          </div>
-        </div>
-
-        {/* ---------------------------- */}
-
-        <div className="animation project-card" data-aos="flip-right">
-          <div className="pro-img">
-            <img src="https://github.com/mdfaizan973/mdfaizan973/assets/106812942/a3f0797e-71b4-4d55-a9f0-a48d058e1ddc" />
-          </div>
-          <div className="pro-dis">
-            <h1 className="title-pro project-title">FitnessFuel</h1>
-            <h1 className="project-description">
-              A Fitness websilt,Where person can know about body health and fix
-              his own daily routine.--
-              <span style={{ fontSize: "1rem", color: "teal" }}>
-                Group - Project
-              </span>
-            </h1>
-            <h2
-              style={{ fontSize: "1rem", color: "red" }}
-              className="project-tech-stack"
-            >
-              React,Axios,React-Router-Dom,Redux,Node.js,MongooDB,Telwind CSS
-            </h2>
-            <div className="dep-btn">
-              <Button>
-                <a
-                  className="project-github-link"
-                  href="https://github.com/VivekTomar03/FitnessFuel"
-                  target="_blank"
-                >
-                  Github
-                </a>
-              </Button>
-              <Button>
-                <a
-                  className="project-deployed-link"
-                  href="https://mdfaizan973.github.io/"
-                  target="_blank"
-                >
-                  Live
-                </a>
-              </Button>
-            </div>
-          </div>
-        </div>
+        ))}
       </div>
       <br />
       <hr />
@@ -395,3 +220,13 @@ const DIV = styled.div`
     }
   }
 `;
+// {
+//   anim: "",
+//   image: "",
+//   name: "",
+//   dis: "",
+//   pro: "",
+//   tstack: "",
+//   github: "",
+//   link: "",
+// },
