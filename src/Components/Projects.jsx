@@ -88,7 +88,7 @@ export default function Projects() {
       pro: "Group - Project",
       tstack: "React,Axios,React-Router-Dom,Redux,Node.js,MongooDB,Telwind CSS",
       github: "https://github.com/VivekTomar03/FitnessFuel",
-      link: "https://mdfaizan973.github.io/",
+      link: "https://frontend-iota-blond.vercel.app/",
     },
   ];
 
