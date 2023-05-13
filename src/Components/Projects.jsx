@@ -234,6 +234,92 @@ export default function Projects() {
             </div>
           </div>
         </div>
+
+        <div className="animation project-card" data-aos="zoom-out">
+          <div className="pro-img">
+            <img src="https://github.com/mdfaizan973/mdfaizan973/assets/106812942/4eac3e09-97c4-4145-9cff-ce4c4ea5c93f" />
+          </div>
+          <div className="pro-dis">
+            <h1 className="title-pro project-title">Clotho</h1>
+            <h1 className="project-description">
+              A Clothes websilt,Where user can buy dresses for mens, womens and
+              kids.--
+              <span style={{ fontSize: "1rem", color: "teal" }}>
+                Group - Project
+              </span>
+            </h1>
+            <h2
+              style={{ fontSize: "1rem", color: "red" }}
+              className="project-tech-stack"
+            >
+              React,Axios,React-Router-Dom,Redux,Node.js,MongooDB
+            </h2>
+            <div className="dep-btn">
+              <Button>
+                <a
+                  className="project-github-link"
+                  href="https://github.com/hrithikvishwakarma001/incredible-birth-7157"
+                  target="_blank"
+                >
+                  Github
+                </a>
+              </Button>
+              <Button>
+                <a
+                  className="project-deployed-link"
+                  href="https://clotho.vercel.app/"
+                  target="_blank"
+                >
+                  Live
+                </a>
+              </Button>
+            </div>
+          </div>
+        </div>
+
+        {/* ---------------------------- */}
+
+        <div className="animation project-card" data-aos="flip-right">
+          <div className="pro-img">
+            <img src="https://github.com/mdfaizan973/mdfaizan973/assets/106812942/a3f0797e-71b4-4d55-a9f0-a48d058e1ddc" />
+          </div>
+          <div className="pro-dis">
+            <h1 className="title-pro project-title">FitnessFuel</h1>
+            <h1 className="project-description">
+              A Fitness websilt,Where person can know about body health and fix
+              his own daily routine.--
+              <span style={{ fontSize: "1rem", color: "teal" }}>
+                Group - Project
+              </span>
+            </h1>
+            <h2
+              style={{ fontSize: "1rem", color: "red" }}
+              className="project-tech-stack"
+            >
+              React,Axios,React-Router-Dom,Redux,Node.js,MongooDB,Telwind CSS
+            </h2>
+            <div className="dep-btn">
+              <Button>
+                <a
+                  className="project-github-link"
+                  href="https://github.com/VivekTomar03/FitnessFuel"
+                  target="_blank"
+                >
+                  Github
+                </a>
+              </Button>
+              <Button>
+                <a
+                  className="project-deployed-link"
+                  href="https://mdfaizan973.github.io/"
+                  target="_blank"
+                >
+                  Live
+                </a>
+              </Button>
+            </div>
+          </div>
+        </div>
       </div>
       <br />
       <hr />
