@@ -90,6 +90,17 @@ export default function Projects() {
       github: "https://github.com/VivekTomar03/FitnessFuel",
       link: "https://frontend-iota-blond.vercel.app/",
     },
+    {
+      anim: "zoom-out",
+      image:
+        "https://user-images.githubusercontent.com/106812942/252140237-a6928f13-a65b-4424-90db-14316334cc87.png",
+      name: "FashionZone",
+      dis: "A FashionZone is a websilt,Where person can buy the clothes as per the choice with famous brands.--",
+      pro: "Individuel - Project",
+      tstack: "React,Axios,React-Router-Dom",
+      github: "https://github.com/mdfaizan973/FashioZone/",
+      link: "https://myfashionzonefz.netlify.app/",
+    },
   ];
 
   return (
