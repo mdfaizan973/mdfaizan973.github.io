@@ -8,6 +8,7 @@ import Projects from "./Components/Projects";
 import Github from "./Components/Github";
 import Contacts from "./Components/Contacts";
 import AnimatedCursor from "react-animated-cursor";
+import MiniPro from "./Components/MiniPro";
 // import Part from "./Components/Part";
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <About />
       <Skills />
       <Projects />
+      <MiniPro />
       <Github />
       <Contacts />
     </div>
