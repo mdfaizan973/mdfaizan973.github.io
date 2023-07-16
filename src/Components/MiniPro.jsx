@@ -4,19 +4,15 @@ import styled from "styled-components";
 import "animate.css/animate.min.css";
 import AOS from "aos";
 import {
-  Box,
   Button,
   Card,
   CardBody,
-  CardFooter,
   Divider,
-  Flex,
   HStack,
   Image,
   SimpleGrid,
   Text,
 } from "@chakra-ui/react";
-import { ButtonGroup } from "react-bootstrap";
 import { useEffect } from "react";
 export default function MiniPro() {
   let arr = [
@@ -104,7 +100,7 @@ export default function MiniPro() {
       </h1>
       <SimpleGrid columns={[2, 3, 5]} spacing="40px">
         {arr.map((ele, i) => (
-          <Card maxW="100%" className="animation" data-aos="zoom-out">
+          <Card key={i} maxW="100%" className="animation" data-aos="zoom-out">
             <CardBody>
               <Image src={ele.image} alt={ele.name} borderRadius="lg" />
             </CardBody>
@@ -112,7 +108,7 @@ export default function MiniPro() {
             <Divider />
             <HStack p={"5"} justifyContent={"center"}>
               <Button variant="solid">
-                <a href={ele.live} target="_blank">
+                <a href={ele.live} rel="noreferrer" target="_blank">
                   Live
                 </a>
               </Button>

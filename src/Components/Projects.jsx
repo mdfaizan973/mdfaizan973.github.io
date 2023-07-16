@@ -168,7 +168,7 @@ const DIV = styled.div`
   .animation {
     width: 50%;
     height: 100%;
-    margin: 10px auto;
+    margin: 20px auto;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
       rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
     display: flex;
