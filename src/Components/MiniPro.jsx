@@ -76,18 +76,20 @@ export default function MiniPro() {
       live: "https://masai-bmi-calculator.netlify.app/",
       github: "",
     },
-    // {
-    //   image: "",
-    //   name: "",
-    //   live: "",
-    //   github: "",
-    // },
-    // {
-    //   image: "",
-    //   name: "",
-    //   live: "",
-    //   github: "",
-    // },
+    {
+      image:
+        "https://thumbs.dreamstime.com/b/upcoming-banner-speech-bubble-sign-186711427.jpg",
+      name: "Upcoming Projects",
+      live: "",
+      github: "",
+    },
+    {
+      image:
+        "https://thumbs.dreamstime.com/b/upcoming-banner-speech-bubble-sign-186711427.jpg",
+      name: "Upcoming Projects",
+      live: "",
+      github: "",
+    },
   ];
   useEffect(() => {
     AOS.init({ duration: 2500 });
@@ -100,7 +102,7 @@ export default function MiniPro() {
       >
         Mini Projects
       </h1>
-      <SimpleGrid columns={[2, 3, 4]} spacing="40px">
+      <SimpleGrid columns={[2, 3, 5]} spacing="40px">
         {arr.map((ele, i) => (
           <Card maxW="100%" className="animation" data-aos="zoom-out">
             <CardBody>

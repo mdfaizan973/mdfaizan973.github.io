@@ -169,11 +169,12 @@ const DIV = styled.div`
     width: 50%;
     height: 100%;
     margin: 10px auto;
-    box-shadow: rgba(60, 64, 67, 0.15) 0px 1px 2px 1px,
-      rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+      rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
     display: flex;
     align-items: center;
     padding: 20px;
+    border-radius: 10px;
   }
   /* .animation:hover {
     width: 55%;
@@ -216,7 +217,7 @@ const DIV = styled.div`
       font-size: 1rem;
     }
     .pro-img {
-      width: 100%;
+      width: 95% !important;
     }
     .pro-img img {
       width: 100%;
