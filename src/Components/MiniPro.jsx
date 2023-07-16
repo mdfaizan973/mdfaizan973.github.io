@@ -74,9 +74,9 @@ export default function MiniPro() {
     },
     {
       image:
-        "https://thumbs.dreamstime.com/b/upcoming-banner-speech-bubble-sign-186711427.jpg",
-      name: "Upcoming Projects",
-      live: "",
+        "https://user-images.githubusercontent.com/106812942/253824925-49de4bc7-d3fd-4b5b-8065-cbb0dc8d541a.png",
+      name: "Students DataBase",
+      live: "https://students-data-base.netlify.app/",
       github: "",
     },
     {
