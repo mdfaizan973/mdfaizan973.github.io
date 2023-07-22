@@ -6,6 +6,7 @@ import {
   Text,
   useColorMode,
   Link,
+  Divider,
 } from "@chakra-ui/react";
 import React, { useState } from "react";
 import { MoonIcon, SunIcon, HamburgerIcon } from "@chakra-ui/icons";
@@ -128,6 +129,7 @@ const Navbar = () => {
             <Sidebar />
           </Box>
         </Flex>
+        <Divider borderColor="grey.500" />
       </Box>
     </>
   );

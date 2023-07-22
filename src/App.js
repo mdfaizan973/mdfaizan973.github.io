@@ -20,6 +20,7 @@ function App() {
       <Home />
       <About />
       <Skills />
+      {/* <Carousal /> */}
       <Projects />
       <MiniPro />
       <Github />

@@ -1,12 +1,13 @@
 import { Card } from "@chakra-ui/react";
 import React from "react";
 import Carousel from "react-multi-carousel";
+import { AnimationOnScroll } from "react-animation-on-scroll";
 import "react-multi-carousel/lib/styles.css";
 export default function Carousal() {
   const sliderData1 = [
     {
       image:
-        "https://cdn3d.iconscout.com/3d/free/thumb/html-logo-6563588-5453024.png?f=webp",
+        "https://user-images.githubusercontent.com/106812942/255094909-ccb4d46c-a531-42e1-8d6a-300641127a91.png",
       name: "HTML",
     },
     {
@@ -21,7 +22,7 @@ export default function Carousal() {
     },
     {
       image:
-        "https://cdn3d.iconscout.com/3d/free/thumb/react-native-5562339-4642743.png",
+        "https://user-images.githubusercontent.com/106812942/255093713-fc4acefd-5ae5-469a-ac28-75fff76f758a.png",
       name: "React",
     },
     {
@@ -71,16 +72,17 @@ export default function Carousal() {
     },
   ];
   return (
-    <div>
+    <div id="skills" style={{ marginTop: "170px", height: "50vh" }}>
+      <h1 style={{ fontSize: "3rem" }}>Skills</h1>
+
       <Carousel
         additionalTransfrom={0}
         arrows
         autoPlay
-        autoPlaySpeed={6}
+        autoPlaySpeed={2500}
         centerMode={false}
         className=""
         containerClass="container-with-dots"
-        customTransition="all 1s linear"
         dotListClass=""
         draggable
         focusOnSelect={false}
@@ -126,11 +128,16 @@ export default function Carousal() {
         sliderClass=""
         slidesToSlide={2}
         swipeable
-        transitionDuration={1000}
       >
-        {sliderData1.map((e) => (
-          <div>
-            <img style={{ width: "40%" }} src={e.image} />
+        {sliderData1.map((e, i) => (
+          <div key={i} className="skills-card">
+            <AnimationOnScroll animateIn="animate__bounceIn">
+              <img
+                className="skills-card-img"
+                style={{ width: "35%" }}
+                src={e.image}
+              />
+            </AnimationOnScroll>
           </div>
         ))}
       </Carousel>

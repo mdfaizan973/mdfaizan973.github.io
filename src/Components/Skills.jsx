@@ -173,7 +173,7 @@ export default function Skills() {
   var settings = {
     dots: false,
     infinite: false,
-    speed: 500,
+    speed: 1000,
     slidesToShow: 2.5,
     slidesToScroll: 2,
     initialSlide: 0,
