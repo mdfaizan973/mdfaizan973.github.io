@@ -158,7 +158,7 @@ export default function Skills() {
   );
 
   const SlickArrowRight = ({ currentSlide, slideCount, ...props }) => (
-    <Box position="absolute" marginTop="-70px" marginLeft="1460px">
+    <Box position="absolute" marginTop="-35px" marginLeft="1460px">
       <ChevronRightIcon
         boxSize={10}
         background="gray.50"
@@ -229,7 +229,7 @@ export default function Skills() {
                     src={el.image}
                   />
                   <Text fontSize={"1.7rem"} className="skills-card-name">
-                    {el.name}
+                    {/* {el.name} */}
                   </Text>
                 </AnimationOnScroll>
               </Box>
@@ -245,9 +245,11 @@ export default function Skills() {
 const DIV = styled.div`
   margin-top: 170px;
   height: 50vh;
+
   h1 {
     font-size: 3rem;
   }
+
   .skills-card {
     margin-top: 25px;
   }
