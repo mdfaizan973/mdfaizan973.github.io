@@ -44,7 +44,7 @@ export default function Projects() {
       pro: "Individuel - Project",
       tstack: "React,Axios,Json-Server,React-Router-Dom",
       github: "https://github.com/mdfaizan973/interesting-vase-9902",
-      link: "https://spectacular-mandazi-b54fe5.netlify.app/",
+      link: "https://flowerfz.netlify.app/",
     },
     {
       anim: "zoom-in",
