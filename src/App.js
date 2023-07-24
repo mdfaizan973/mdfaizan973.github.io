@@ -24,6 +24,7 @@ function App() {
       {/* <Carousal /> */}
       <Projects />
       <MiniPro />
+      <Education />
       <Github />
       <Contacts />
     </div>
