@@ -101,6 +101,17 @@ export default function Projects() {
       github: "https://github.com/mdfaizan973/FashioZone/",
       link: "https://myfashionzonefz.netlify.app/",
     },
+    {
+      anim: "zoom-in",
+      image:
+        "https://user-images.githubusercontent.com/106812942/255404404-dc6669bc-a638-4d99-95ed-5c4cf2b40cb9.png",
+      name: "RentEZ",
+      // dis: " An E-commerce website, Where user can buy home or furniture related products.--",
+      pro: "Individuel - Project",
+      tstack: "HTML,CSS,Angular,Python, Flask,Bootstrap",
+      github: "https://github.com/mdfaizan973/NEBULA",
+      link: "https://yes-5otwzwn11-mdfaizan973.vercel.app/",
+    },
   ];
 
   return (

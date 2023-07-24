@@ -9,6 +9,7 @@ import Contacts from "./Components/Contacts";
 import AnimatedCursor from "react-animated-cursor";
 import MiniPro from "./Components/MiniPro";
 import Carousal from "./Components/Carousal";
+import Education from "./Components/Education";
 // import Part from "./Components/Part";
 function App() {
   return (
