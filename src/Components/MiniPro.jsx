@@ -81,9 +81,9 @@ export default function MiniPro() {
     },
     {
       image:
-        "https://thumbs.dreamstime.com/b/upcoming-banner-speech-bubble-sign-186711427.jpg",
-      name: "Upcoming Projects",
-      live: "",
+        "https://user-images.githubusercontent.com/106812942/258052863-da30cd4d-f1c3-4904-a271-e837cd112540.png",
+      name: "Link Tree",
+      live: "https://faizan973-link-tree.netlify.app/",
       github: "",
     },
   ];
