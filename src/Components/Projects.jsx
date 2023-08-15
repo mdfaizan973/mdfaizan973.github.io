@@ -47,7 +47,7 @@ export default function Projects() {
       link: "https://flowerfz.netlify.app/",
     },
     {
-      anim: "zoom-in",
+      anim: "zoom-out",
       image:
         "https://user-images.githubusercontent.com/106812942/218271324-c3071ba5-560d-4029-bcfe-9263fb982e5d.png",
       name: "Furniture-Stock",
@@ -69,7 +69,7 @@ export default function Projects() {
       link: "https://incandescent-cassata-f56374.netlify.app/",
     },
     {
-      anim: "zoom-out",
+      anim: "flip-left",
       image:
         "https://github.com/mdfaizan973/mdfaizan973/assets/106812942/4eac3e09-97c4-4145-9cff-ce4c4ea5c93f",
       name: "Clotho",
@@ -80,7 +80,7 @@ export default function Projects() {
       link: "https://clotho.vercel.app/",
     },
     {
-      anim: "flip-right",
+      anim: "zoom-in",
       image:
         "https://github.com/mdfaizan973/mdfaizan973/assets/106812942/a3f0797e-71b4-4d55-a9f0-a48d058e1ddc",
       name: "FitnessFuel",
@@ -91,7 +91,7 @@ export default function Projects() {
       link: "https://frontend-iota-blond.vercel.app/",
     },
     {
-      anim: "zoom-out",
+      anim: "zoom-in",
       image:
         "https://user-images.githubusercontent.com/106812942/252140237-a6928f13-a65b-4424-90db-14316334cc87.png",
       name: "FashionZone",
@@ -102,15 +102,26 @@ export default function Projects() {
       link: "https://myfashionzonefz.netlify.app/",
     },
     {
-      anim: "zoom-in",
+      anim: "flip-right",
       image:
         "https://user-images.githubusercontent.com/106812942/255404404-dc6669bc-a638-4d99-95ed-5c4cf2b40cb9.png",
       name: "RentEZ",
-      // dis: " An E-commerce website, Where user can buy home or furniture related products.--",
+      dis: "Welcome to RentEZ: Simplifying home rentals. Explore apartments and houses for rent. Your perfect living space, just a RentEZ away!--",
       pro: "Individuel - Project",
       tstack: "HTML,CSS,Angular,Python, Flask,Bootstrap",
       github: "https://github.com/mdfaizan973/NEBULA",
       link: "https://yes-5otwzwn11-mdfaizan973.vercel.app/",
+    },
+    {
+      anim: "flip-right",
+      image:
+        "https://user-images.githubusercontent.com/106812942/260703096-29803c53-ca47-4921-84de-97235c984ff6.png",
+      name: " Fc Food",
+      dis: "An experience Fc Food: Your gateway to gourmet pizzas, juicy burgers, exotic biryanis, and more. Delight in every bite!.--",
+      pro: "Individuel - Project",
+      tstack: "HTML,CSS,JavaScript,Bootstrap",
+      github: "https://github.com/mdfaizan973/Food_Website",
+      link: "https://food-fz.netlify.app/",
     },
   ];
 
@@ -212,6 +223,12 @@ const DIV = styled.div`
     justify-content: space-evenly;
     width: 100%;
     margin: 10px auto;
+  }
+  img {
+    border-radius: 10px;
+    /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+      rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
   }
   @media screen and (min-width: 100px) and (max-width: 450px) {
     .animation {
