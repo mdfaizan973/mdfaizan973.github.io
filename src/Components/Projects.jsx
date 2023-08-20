@@ -2,13 +2,12 @@ import React, { useEffect } from "react";
 import "animate.css/animate.min.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { AnimationOnScroll } from "react-animation-on-scroll";
-import { Button, Card, Heading } from "@chakra-ui/react";
+import { Button } from "@chakra-ui/react";
 import styled from "styled-components";
 
 export default function Projects() {
   useEffect(() => {
-    AOS.init({ duration: 2500 });
+    AOS.init({ duration: 2000 });
   }, []);
 
   let projectsarr = [
@@ -138,7 +137,7 @@ export default function Projects() {
         {projectsarr.map((ele, i) => (
           <div className="animation project-card" data-aos={ele.anim}>
             <div className="pro-img">
-              <img src={ele.image} />
+              <img src={ele.image} data-aos="fade-up-right" />
             </div>
             <div className="pro-dis">
               <h1 className="title-pro project-title">{ele.name}</h1>
@@ -156,7 +155,7 @@ export default function Projects() {
                 {ele.tstack}
               </h2>
               <div className="dep-btn">
-                <Button>
+                <Button data-aos="fade-down-right">
                   <a
                     className="project-github-link"
                     href={ele.github}
@@ -165,7 +164,7 @@ export default function Projects() {
                     Github
                   </a>
                 </Button>
-                <Button>
+                <Button data-aos="fade-down-left">
                   <a
                     className="project-deployed-link"
                     href={ele.link}

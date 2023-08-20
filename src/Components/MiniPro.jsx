@@ -98,7 +98,7 @@ export default function MiniPro() {
     },
     {
       image:
-        "https://private-user-images.githubusercontent.com/106812942/260707645-34b83efe-f347-4409-80aa-d626acdcce14.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE2OTIxMDI0MjMsIm5iZiI6MTY5MjEwMjEyMywicGF0aCI6Ii8xMDY4MTI5NDIvMjYwNzA3NjQ1LTM0YjgzZWZlLWYzNDctNDQwOS04MGFhLWQ2MjZhY2RjY2UxNC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBSVdOSllBWDRDU1ZFSDUzQSUyRjIwMjMwODE1JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDIzMDgxNVQxMjIyMDNaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0xMDhkOTk5MmY0NWRmZDE3ZjY0YzEzZTQ2Zjk2YmIwM2U2MjNlNzdkZjRlZWQ4ZWJlNjQzZjQ2N2IxYjFkNTUwJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.PHVxvaxZ7E7Q_81GXzrpRwFTHCysNP3dUl572UhLkTY",
+        "https://user-images.githubusercontent.com/106812942/260710892-5311deb8-5020-42b8-8042-206387db0350.png",
       name: "Caraousal",
       show: true,
       live: "https://carausal-fz.netlify.app/",
@@ -106,7 +106,7 @@ export default function MiniPro() {
     },
     {
       image:
-        "https://private-user-images.githubusercontent.com/106812942/260707417-f80cfab8-49e5-4042-a0cf-e7266fbdb957.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE2OTIxMDI0MjMsIm5iZiI6MTY5MjEwMjEyMywicGF0aCI6Ii8xMDY4MTI5NDIvMjYwNzA3NDE3LWY4MGNmYWI4LTQ5ZTUtNDA0Mi1hMGNmLWU3MjY2ZmJkYjk1Ny5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBSVdOSllBWDRDU1ZFSDUzQSUyRjIwMjMwODE1JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDIzMDgxNVQxMjIyMDNaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0zOTUyYjY5NmViZWI0MzgzODllMjg0MDY5NTE4YzkyZjUwMmQ3MjM3NjE3MmNlY2NmMDdhZDhhYzJkNzhhOWIwJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.z9sly5rYDYSaZLas62Tcyi0x-hlu0Ypy71rSfhuigq0",
+        "https://user-images.githubusercontent.com/106812942/260710865-2a50a259-849e-4ad5-bb4b-9d1f739e3c5d.png",
       name: "Rnadom Image Generator",
       show: true,
       live: "https://random-image-generater.netlify.app/",

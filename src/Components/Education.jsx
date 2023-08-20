@@ -1,7 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
+import "animate.css/animate.min.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import "./Edu.css";
 import { Card } from "@chakra-ui/react";
 export default function Education() {
+  useEffect(() => {
+    AOS.init({ duration: 2500 });
+  }, []);
   return (
     <div>
       <h1
@@ -12,8 +18,8 @@ export default function Education() {
       </h1>
       <div class="timeline">
         <div class="container left">
-          <Card>
-            <div class="content">
+          <Card s>
+            <div class="content" data-aos="flip-down">
               <h2>Full Stack Web Developement</h2>
               <h3>Masai School</h3>
               <p>August 2022 - July 2023</p>
@@ -23,7 +29,7 @@ export default function Education() {
         <div class="container right">
           <Card>
             <Card>
-              <div class="content">
+              <div class="content" data-aos="flip-up">
                 <h2>Intermediate</h2>
                 <h3>High School Gomia</h3>
                 <p>June 2020 - July 2022</p>
@@ -34,7 +40,7 @@ export default function Education() {
         <div class="container left">
           <Card>
             <Card>
-              <div class="content">
+              <div class="content" data-aos="flip-down">
                 <h2>Matriculation</h2>
                 <h3>Loyola School Gomia</h3>
                 <p>April 2010 - May 2020</p>

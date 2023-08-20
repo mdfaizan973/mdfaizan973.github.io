@@ -15,7 +15,7 @@
 .timeline::after {
   content: "";
   position: absolute;
-  width: 6px;
+  width: 3px;
   background-color: rgb(149, 144, 151);
   top: 0;
   bottom: 0;
@@ -35,9 +35,9 @@
 .container::after {
   content: "";
   position: absolute;
-  width: 25px;
-  height: 25px;
-  right: -17px;
+  width: 15px;
+  height: 15px;
+  right: -10px;
   background-color: white;
   border: 4px solid #62615f;
   top: 15px;
@@ -93,7 +93,7 @@
   padding: 20px 30px;
   position: relative;
   border-radius: 6px;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+  box-shadow: rgba(57, 57, 69, 0.171) 0px 2px 5px -1px,
     rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 .content h2 {
