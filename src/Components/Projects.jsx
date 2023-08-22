@@ -92,7 +92,7 @@ export default function Projects() {
     {
       anim: "zoom-in",
       image:
-        "https://user-images.githubusercontent.com/106812942/252140237-a6928f13-a65b-4424-90db-14316334cc87.png",
+        "https://user-images.githubusercontent.com/106812942/262247221-6b79b2f0-da86-4fcb-b4f7-8abe6439712e.png",
       name: "FashionZone",
       dis: "A FashionZone is a websilt,Where person can buy the clothes as per the choice with famous brands.--",
       pro: "Individuel - Project",
