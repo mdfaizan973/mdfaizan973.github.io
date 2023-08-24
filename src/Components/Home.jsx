@@ -1,3 +1,7 @@
+import { useEffect } from "react";
+import "animate.css/animate.min.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import {
   Box,
   Button,
@@ -14,8 +18,10 @@ import { FaGithub } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { AiOutlineArrowDown, AiOutlineDownload } from "react-icons/ai";
 import Md_Faizan_Resume from "../Md_Faizan_Resume.pdf";
-import styled from "styled-components";
 const Home = () => {
+  useEffect(() => {
+    AOS.init({ duration: 2500 });
+  }, []);
   return (
     <>
       <Flex
@@ -111,6 +117,7 @@ const Home = () => {
           </Box>
         </Flex>
         <Box
+          data-aos="fade-up-left"
           height={{ base: "200px", md: "300px", lg: "400px" }}
           overflow="hidden"
           className="profile"

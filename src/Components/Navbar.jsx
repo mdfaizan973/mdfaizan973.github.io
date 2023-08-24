@@ -8,17 +8,20 @@ import {
   Link,
   Divider,
 } from "@chakra-ui/react";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { MoonIcon, SunIcon, HamburgerIcon } from "@chakra-ui/icons";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Helmet } from "react-helmet";
 import Md_Faizan_Resume from "../Md_Faizan_Resume.pdf";
 import Sidebar from "./Sidebar";
-
+import "animate.css/animate.min.css";
+import AOS from "aos";
 const Navbar = () => {
   const { colorMode, toggleColorMode } = useColorMode();
   const [title, setTitle] = useState("Home");
-
+  useEffect(() => {
+    AOS.init({ duration: 2500 });
+  }, []);
   return (
     <>
       <div>

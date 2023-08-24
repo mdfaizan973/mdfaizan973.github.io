@@ -7,7 +7,10 @@ import {
   SimpleGrid,
   VStack,
 } from "@chakra-ui/react";
-import React from "react";
+import React, { useEffect } from "react";
+import "animate.css/animate.min.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import {
   MdPhone,
   MdEmail,
@@ -21,6 +24,9 @@ import { ImLinkedin } from "react-icons/im";
 import { HiOutlineMail } from "react-icons/hi";
 import { FaGithub } from "react-icons/fa";
 export default function Contacts() {
+  useEffect(() => {
+    AOS.init({ duration: 2500 });
+  }, []);
   return (
     <div id="contact" style={{ textAlign: "center" }}>
       <h1 className="proj-title" style={{ fontSize: "3rem", marginTop: "5px" }}>
@@ -48,6 +54,7 @@ export default function Contacts() {
               // color="#DCE2FF"
               _hover={{ border: "2px solid #1C6FEB" }}
               leftIcon={<MdPhone color="green" size="20px" />}
+              data-aos="zoom-in-up"
             >
               +91-6201855200
             </Button>
@@ -59,6 +66,7 @@ export default function Contacts() {
               id="contact-email"
               _hover={{ border: "2px solid #1C6FEB" }}
               leftIcon={<MdEmail color="#1970F1" size="20px" />}
+              data-aos="zoom-in-up"
             >
               faizan.md9735@gmail.com
             </Button>
@@ -69,6 +77,7 @@ export default function Contacts() {
               // color="#DCE2FF"
               _hover={{ border: "2px solid #1C6FEB" }}
               leftIcon={<MdLocationOn color="red" size="20px" />}
+              data-aos="zoom-in-up"
             >
               Jharkhand, India
             </Button>
@@ -86,6 +95,9 @@ export default function Contacts() {
               id="contact-linkedin"
               href="https://www.linkedin.com/in/md-faizan-380a65246/"
               isExternal
+              data-aos="flip-left"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000"
             >
               <ImLinkedin fontSize={"1.6rem"} />
             </Link>
@@ -93,6 +105,9 @@ export default function Contacts() {
               id="contact-github"
               href="https://github.com/mdfaizan973"
               isExternal
+              data-aos="flip-left"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000"
             >
               <FaGithub fontSize={"1.6rem"} />
             </Link>
@@ -100,6 +115,9 @@ export default function Contacts() {
               id="contact-email"
               href="https://faizan.md9735@gmail.com"
               isExternal
+              data-aos="flip-left"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000"
             >
               <HiOutlineMail fontSize={"1.6rem"} />
             </Link>
