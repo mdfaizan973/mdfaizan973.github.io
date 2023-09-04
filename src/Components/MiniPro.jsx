@@ -112,6 +112,14 @@ export default function MiniPro() {
       live: "https://random-image-generater.netlify.app/",
       github: "",
     },
+    {
+      image:
+        "https://github-production-user-asset-6210df.s3.amazonaws.com/106812942/265500903-014dd368-21f0-4c72-8686-ad70aa52d036.png",
+      name: "Github User Search",
+      show: true,
+      live: "https://githubusersearchfz.netlify.app/",
+      github: "",
+    },
     // {
     //   image: "",
     //   name: "",
