@@ -30,8 +30,9 @@ const About = () => {
             margin="auto"
             border="2px solid grey"
             borderRadius="50%"
-            src="https://avatars.githubusercontent.com/u/106812942?v=4"
+            src="https://avatars.githubusercontent.com/u/106812942?s=400&u=321d027478cef5cefe38c9a0237b7f260d6277ed&v=4"
           />
+          {/* https://avatars.githubusercontent.com/u/106812942?v=4 */}
         </Box>
         <Box
           padding={{ base: "0px", md: "40px", lg: "50px" }}

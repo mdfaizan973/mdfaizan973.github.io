@@ -14,6 +14,17 @@ export default function Projects() {
     {
       anim: "flip-right",
       image:
+        "https://user-images.githubusercontent.com/106812942/278866276-08e3e6cb-0648-4adb-a9fa-891a98e27d33.png",
+      name: "Organic Store",
+      dis: "An Organic Products websilt, Where person can buy all the Organics Food products..--",
+      pro: "Individuel - Project",
+      tstack: "React,HTML,CSS,JS,Axios,Tailwind CSS",
+      github: "https://github.com/mdfaizan973/ZC_ORG",
+      link: "https://organicstore.vercel.app/",
+    },
+    {
+      anim: "flip-right",
+      image:
         "https://user-images.githubusercontent.com/106812942/215109393-cfcfb68a-7de0-4554-9380-7d3b65e4f9b6.png",
       name: "Skin-Care",
       dis: "An E-commerce websilt,Where user can buy skin related products.--",
