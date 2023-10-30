@@ -242,7 +242,6 @@ const DIV = styled.div`
     transition: transform 0.3s ease;
     width: 150px;
   }
-
   .skill-image {
     max-width: 100px;
     height: auto;
@@ -253,7 +252,11 @@ const DIV = styled.div`
   /* Responsive styles */
   @media screen and (max-width: 768px) {
     .skill-card {
+      text-align: center;
       width: calc(50% - 10px);
+    }
+    .skill-image {
+      max-width: 75px;
     }
   }
 

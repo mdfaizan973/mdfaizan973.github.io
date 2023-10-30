@@ -148,7 +148,7 @@ export default function Projects() {
         {projectsarr.map((ele, i) => (
           <div className="animation project-card" data-aos={ele.anim}>
             <div className="pro-img">
-              <img src={ele.image} data-aos="fade-up-right" />
+              <img src={ele.image} data-aos="fade-up-right" alt="pro_img" />
             </div>
             <div className="pro-dis">
               <h1 className="title-pro project-title">{ele.name}</h1>
@@ -171,6 +171,7 @@ export default function Projects() {
                     className="project-github-link"
                     href={ele.github}
                     target="_blank"
+                    rel="noreferrer"
                   >
                     Github
                   </a>
@@ -180,6 +181,7 @@ export default function Projects() {
                     className="project-deployed-link"
                     href={ele.link}
                     target="_blank"
+                    rel="noreferrer"
                   >
                     Live
                   </a>
@@ -241,6 +243,8 @@ const DIV = styled.div`
       rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
   }
   @media screen and (min-width: 100px) and (max-width: 450px) {
+    width: 90%;
+    margin: auto;
     .animation {
       display: flex;
       flex-direction: column;
