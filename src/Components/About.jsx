@@ -19,7 +19,6 @@ const About = () => {
         margin="auto"
         id="about"
         flexDir={{ base: "column", md: "row", lg: "row" }}
-        // border={"1px solid red"}
         alignItems={"center"}
       >
         <Box

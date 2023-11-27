@@ -217,7 +217,6 @@ const DIV = styled.div`
     padding: 20px;
     text-align: center;
     border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     margin: 20px;
     display: inline-block;
   }
@@ -236,11 +235,15 @@ const DIV = styled.div`
 
   .skill-card {
     border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+    box-shadow: -2px -2px 5px #fff, 2px 2px 5px #babecc;
     padding: 20px;
     text-align: center;
     transition: transform 0.3s ease;
     width: 150px;
+  }
+  .skill-card:hover {
+    box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px #fff;
   }
   .skill-image {
     max-width: 100px;
