@@ -23,6 +23,39 @@ export default function Projects() {
       link: "https://organicstore.vercel.app/",
     },
     {
+      anim: "zoom-in",
+      image:
+        "https://user-images.githubusercontent.com/106812942/262247221-6b79b2f0-da86-4fcb-b4f7-8abe6439712e.png",
+      name: "FashionZone",
+      dis: "A FashionZone is a websilt,Where person can buy the clothes as per the choice with famous brands.--",
+      pro: "Individuel - Project",
+      tstack: "React,Axios,React-Router-Dom",
+      github: "https://github.com/mdfaizan973/FashioZone/",
+      link: "https://myfashionzonefz.netlify.app/",
+    },
+    {
+      anim: "flip-right",
+      image:
+        "https://user-images.githubusercontent.com/106812942/255404404-dc6669bc-a638-4d99-95ed-5c4cf2b40cb9.png",
+      name: "RentEZ",
+      dis: "Welcome to RentEZ: Simplifying home rentals. Explore apartments and houses for rent. Your perfect living space, just a RentEZ away!--",
+      pro: "Individuel - Project",
+      tstack: "HTML,CSS,Angular,Python, Flask,Bootstrap",
+      github: "https://github.com/mdfaizan973/NEBULA",
+      link: "https://yes-5otwzwn11-mdfaizan973.vercel.app/",
+    },
+    {
+      anim: "flip-right",
+      image:
+        "https://user-images.githubusercontent.com/106812942/260703096-29803c53-ca47-4921-84de-97235c984ff6.png",
+      name: " Fc Food",
+      dis: "An experience Fc Food: Your gateway to gourmet pizzas, juicy burgers, exotic biryanis, and more. Delight in every bite!.--",
+      pro: "Individuel - Project",
+      tstack: "HTML,CSS,JavaScript,Bootstrap",
+      github: "https://github.com/mdfaizan973/Food_Website",
+      link: "https://food-fz.netlify.app/",
+    },
+    {
       anim: "flip-right",
       image:
         "https://user-images.githubusercontent.com/106812942/215109393-cfcfb68a-7de0-4554-9380-7d3b65e4f9b6.png",
@@ -99,39 +132,6 @@ export default function Projects() {
       tstack: "React,Axios,React-Router-Dom,Redux,Node.js,MongooDB,Telwind CSS",
       github: "https://github.com/VivekTomar03/FitnessFuel",
       link: "https://frontend-iota-blond.vercel.app/",
-    },
-    {
-      anim: "zoom-in",
-      image:
-        "https://user-images.githubusercontent.com/106812942/262247221-6b79b2f0-da86-4fcb-b4f7-8abe6439712e.png",
-      name: "FashionZone",
-      dis: "A FashionZone is a websilt,Where person can buy the clothes as per the choice with famous brands.--",
-      pro: "Individuel - Project",
-      tstack: "React,Axios,React-Router-Dom",
-      github: "https://github.com/mdfaizan973/FashioZone/",
-      link: "https://myfashionzonefz.netlify.app/",
-    },
-    {
-      anim: "flip-right",
-      image:
-        "https://user-images.githubusercontent.com/106812942/255404404-dc6669bc-a638-4d99-95ed-5c4cf2b40cb9.png",
-      name: "RentEZ",
-      dis: "Welcome to RentEZ: Simplifying home rentals. Explore apartments and houses for rent. Your perfect living space, just a RentEZ away!--",
-      pro: "Individuel - Project",
-      tstack: "HTML,CSS,Angular,Python, Flask,Bootstrap",
-      github: "https://github.com/mdfaizan973/NEBULA",
-      link: "https://yes-5otwzwn11-mdfaizan973.vercel.app/",
-    },
-    {
-      anim: "flip-right",
-      image:
-        "https://user-images.githubusercontent.com/106812942/260703096-29803c53-ca47-4921-84de-97235c984ff6.png",
-      name: " Fc Food",
-      dis: "An experience Fc Food: Your gateway to gourmet pizzas, juicy burgers, exotic biryanis, and more. Delight in every bite!.--",
-      pro: "Individuel - Project",
-      tstack: "HTML,CSS,JavaScript,Bootstrap",
-      github: "https://github.com/mdfaizan973/Food_Website",
-      link: "https://food-fz.netlify.app/",
     },
   ];
 
