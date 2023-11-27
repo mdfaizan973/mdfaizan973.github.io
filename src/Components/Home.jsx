@@ -35,6 +35,8 @@ const Home = () => {
         fontSize={"1.3rem"}
         gap={{ base: "4", md: "6", lg: "8" }}
         marginBottom={["40px", "0px", "0px"]}
+        // border={"1px solid red"}
+        // justifyContent={"space-evenly"}
       >
         <Flex
           maxWidth={{ base: "100%", lg: "40%" }}
@@ -42,15 +44,26 @@ const Home = () => {
           gap="1rem"
           padding={"5px"}
         >
-          <Heading id="user-detail-name">Hi I am Md Faizan</Heading>
-          <Text fontSize={"1.4rem"}>Full stack web developer</Text>
-          <Text>
+          <Heading
+            id="user-detail-name"
+            fontSize={"2.5rem"}
+            textAlign={"start"}
+          >
+            Hi I am Md Faizan
+          </Heading>
+          <Text fontSize={"1.4rem"} textAlign={"start"}>
+            {" "}
+            Full stack web developer
+          </Text>
+          <Text textAlign={"start"}>
             Aspiring Full Stack Web Developer Skilled in MERN stack with
             hands-on experience in developing scalable websites using a wide
             range of Front-end and Back-end skills like HTML, CSS, JavaScript,
-            React, MongoDB, and Node JS. Looking forward to joining a
-            progressive organization with opportunities to work on challenging
-            projects.
+            React, MongoDB, and Node JS.
+            <br />
+            <br />
+            Looking forward to joining a progressive organization with
+            opportunities to work on challenging projects.
           </Text>
           <Flex gap={"8"} align="center">
             <Button
@@ -69,6 +82,7 @@ const Home = () => {
                 id="resume-link-2"
                 href={Md_Faizan_Resume}
                 target="_blank"
+                rel="noreferrer"
                 download="Md_Faizan_Resume.pdf"
               >
                 Resume
@@ -123,9 +137,11 @@ const Home = () => {
           className="profile"
         >
           <Image
+            // src="https://github.com/mdfaizan973/mdfaizan973/assets/106812942/1ea9a8fd-84b1-40e9-a0df-2c314eb4bf23"
             src="https://i.pinimg.com/originals/a8/45/76/a845763997f234509fe0fb18deabdbe1.png"
-            borderRadius="1.2rem"
+            borderRadius="1.5rem"
             height="100%"
+            marginTop={"5px"}
           />
         </Box>
       </Flex>
