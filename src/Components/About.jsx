@@ -29,8 +29,9 @@ const About = () => {
           <Image
             className="home-img"
             margin="auto"
-            border="1px solid grey"
+            // border="1px solid grey"
             borderRadius="50%"
+            boxShadow={"-2px -2px 5px #fff, 2px 2px 5px #babecc"}
             // src="https://www.alwin.io/images/wazirx/banner_img.webp"
             src="https://avatars.githubusercontent.com/u/106812942?s=400&u=321d027478cef5cefe38c9a0237b7f260d6277ed&v=4"
           />
