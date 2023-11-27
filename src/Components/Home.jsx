@@ -137,8 +137,9 @@ const Home = () => {
           className="profile"
         >
           <Image
+            src="https://www.alwin.io/images/wazirx/banner_img.webp"
             // src="https://github.com/mdfaizan973/mdfaizan973/assets/106812942/1ea9a8fd-84b1-40e9-a0df-2c314eb4bf23"
-            src="https://i.pinimg.com/originals/a8/45/76/a845763997f234509fe0fb18deabdbe1.png"
+            // src="https://i.pinimg.com/originals/a8/45/76/a845763997f234509fe0fb18deabdbe1.png"
             borderRadius="1.5rem"
             height="100%"
             marginTop={"5px"}

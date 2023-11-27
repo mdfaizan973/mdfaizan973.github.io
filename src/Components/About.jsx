@@ -14,12 +14,13 @@ const About = () => {
         About me
       </Text>
       <Flex
-        height={{ base: "95vh", md: "60vh", lg: "55vh" }}
+        height={{ base: "100%", md: "60vh", lg: "100%" }}
         width="85%"
         margin="auto"
         id="about"
         flexDir={{ base: "column", md: "row", lg: "row" }}
         // border={"1px solid red"}
+        alignItems={"center"}
       >
         <Box
           data-aos="fade-right"
@@ -29,8 +30,9 @@ const About = () => {
           <Image
             className="home-img"
             margin="auto"
-            border="2px solid grey"
+            border="1px solid grey"
             borderRadius="50%"
+            // src="https://www.alwin.io/images/wazirx/banner_img.webp"
             src="https://avatars.githubusercontent.com/u/106812942?s=400&u=321d027478cef5cefe38c9a0237b7f260d6277ed&v=4"
           />
           {/* https://avatars.githubusercontent.com/u/106812942?v=4 */}
@@ -45,14 +47,16 @@ const About = () => {
           fontSize={"1.3rem"}
           data-aos="fade-left"
         >
-          <Text id="user-detail-intro">
+          <Text id="user-detail-intro" textAlign={"start"}>
             A Full-Stack Web Developer specializing in MERN Stack with good
             proficiency in HTML, CSS, JS, ReactJS, Redux, NodeJS, ExpressJS,
             MongoDB, Data Structures and Algorithms. Has a Problem-Solving
-            mindset and the ability to perform well in a team. Acquired 1200+
-            hours of coding and hands-on experience in cloning websites. Looking
-            forward to working as an accountable and competent professional in
-            an exciting tech organization.
+            mindset and the ability to perform well in a team.
+            <br />
+            <br />
+            Acquired 1200+ hours of coding and hands-on experience in cloning
+            websites. Looking forward to working as an accountable and competent
+            professional in an exciting tech organization.
           </Text>
         </Box>
       </Flex>

@@ -200,7 +200,7 @@ export default function Skills() {
 
 const DIV = styled.div`
   margin: auto;
-  margin-top: 170px;
+  margin-top: 10px;
   height: 100%;
   width: 80%;
 
