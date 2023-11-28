@@ -82,7 +82,7 @@ export default function MiniPro() {
     },
     {
       image:
-        "https://private-user-images.githubusercontent.com/106812942/285748700-17cd8819-7f16-4a56-a4ea-61b9d0f8cb59.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MDEwNjg2NDUsIm5iZiI6MTcwMTA2ODM0NSwicGF0aCI6Ii8xMDY4MTI5NDIvMjg1NzQ4NzAwLTE3Y2Q4ODE5LTdmMTYtNGE1Ni1hNGVhLTYxYjlkMGY4Y2I1OS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBSVdOSllBWDRDU1ZFSDUzQSUyRjIwMjMxMTI3JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDIzMTEyN1QwNjU5MDVaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1iNjBkNDNmNmNlNzEyZjQ5N2Y4MjQzZmM1OTJiYmM1NzU0MWEyNjJlZDcxNjM3YzM0MmNlMDE4NTJlMmUyNDk3JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.HQb0I8-dydPhQvTsVaMAhrv1qWUvkRw8Tcd3WZb6RGc",
+        "https://github.com/mdfaizan973/Post-Fz/assets/106812942/0bc10b61-95f4-4d0f-87e2-31c86428cf21",
       name: "BMI Calculator",
       show: true,
       live: "https://bmicalculatorfz.vercel.app/",

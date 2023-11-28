@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import "animate.css/animate.min.css";
 import AOS from "aos";
+import "./Home.css";
 import "aos/dist/aos.css";
 import {
   Box,
@@ -137,6 +138,7 @@ const Home = () => {
           className="profile"
         >
           <Image
+            className="animated-image"
             src="https://www.alwin.io/images/wazirx/banner_img.webp"
             // src="https://github.com/mdfaizan973/mdfaizan973/assets/106812942/1ea9a8fd-84b1-40e9-a0df-2c314eb4bf23"
             // src="https://i.pinimg.com/originals/a8/45/76/a845763997f234509fe0fb18deabdbe1.png"
