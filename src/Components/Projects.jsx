@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import "animate.css/animate.min.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { Button } from "@chakra-ui/react";
+import { Button, Text } from "@chakra-ui/react";
 import styled from "styled-components";
 
 export default function Projects() {
@@ -159,13 +159,12 @@ export default function Projects() {
                 </span>
               </h1>
 
-              <h2
-                style={{ fontSize: "1rem", color: "black", fontWeight: "700" }}
-                // fontweight="bold"
+              <Text
+                style={{ fontSize: "1rem", fontWeight: "700" }}
                 className="project-tech-stack"
               >
                 {ele.tstack}
-              </h2>
+              </Text>
               <div className="dep-btn">
                 <Button data-aos="fade-down-right">
                   <a
