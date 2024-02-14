@@ -160,7 +160,7 @@ export default function Projects() {
               </h1>
 
               <h2
-                style={{ fontSize: "1rem", color: "black" ,fontWeight:"700"}}
+                style={{ fontSize: "1rem", color: "black", fontWeight: "700" }}
                 // fontweight="bold"
                 className="project-tech-stack"
               >
@@ -241,8 +241,8 @@ const DIV = styled.div`
 
   img {
     border-radius: 10px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
-      rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+      rgba(0, 0, 0, 0.3) 0px 8px 16px -8px; */
   }
 
   img:hover {
