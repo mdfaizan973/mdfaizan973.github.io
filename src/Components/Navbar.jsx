@@ -9,7 +9,8 @@ import {
   Divider,
 } from "@chakra-ui/react";
 import React, { useState, useEffect } from "react";
-import { MoonIcon, SunIcon, HamburgerIcon } from "@chakra-ui/icons";
+import { MoonIcon, SunIcon } from "@chakra-ui/icons";
+
 import { AiOutlineDownload } from "react-icons/ai";
 import { Helmet } from "react-helmet";
 import Md_Faizan_Resume from "../Md_Faizan_Resume.pdf";
@@ -22,6 +23,7 @@ const Navbar = () => {
   useEffect(() => {
     AOS.init({ duration: 2500 });
   }, []);
+
   return (
     <>
       <div>
@@ -31,11 +33,13 @@ const Navbar = () => {
       </div>
       <Box
         id="nav-menu"
-        pos={"sticky"}
+        pos={"fixed"}
         zIndex="7"
         top="0"
+        w={"100%"}
         textTransform={"capitalize"}
         // bg={"white"}
+
         opacity={"0.8"}
       >
         <Flex
@@ -68,6 +72,7 @@ const Navbar = () => {
               onClick={() => setTitle("Home")}
               href="#home"
               className="nav-link home"
+              fontWeight="bold"
             >
               home
             </Link>
@@ -75,6 +80,7 @@ const Navbar = () => {
               onClick={() => setTitle("About")}
               href="#about"
               className="nav-link about"
+              fontWeight="bold"
             >
               about
             </Link>
@@ -82,6 +88,7 @@ const Navbar = () => {
               onClick={() => setTitle("Skills")}
               href="#skills"
               className="nav-link skills"
+              fontWeight="bold"
             >
               skills
             </Link>
@@ -89,6 +96,7 @@ const Navbar = () => {
               onClick={() => setTitle("Projects")}
               href="#projects"
               className="nav-link projects"
+              fontWeight="bold"
             >
               projects
             </Link>
@@ -96,6 +104,7 @@ const Navbar = () => {
               onClick={() => setTitle("Contact")}
               href="#contact"
               className="nav-link contact"
+              fontWeight="bold"
             >
               contact
             </Link>
@@ -105,6 +114,7 @@ const Navbar = () => {
               colorScheme={"red"}
               id="resume-button-1"
               className="nav-link resume"
+              fontWeight="bold"
               onClick={() => {
                 window.open(
                   "https://drive.google.com/file/d/17ti5ypZ77muuZC6yulNyPwNkgbKfpEM2/view?usp=sharing",
@@ -116,6 +126,7 @@ const Navbar = () => {
                 id="resume-link-1"
                 href={Md_Faizan_Resume}
                 target="_blank"
+                rel="noreferrer"
                 download="Md_Faizan_Resume.pdf"
               >
                 Resume

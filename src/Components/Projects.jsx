@@ -160,7 +160,8 @@ export default function Projects() {
               </h1>
 
               <h2
-                style={{ fontSize: "1rem", color: "red" }}
+                style={{ fontSize: "1rem", color: "black" ,fontWeight:"700"}}
+                // fontweight="bold"
                 className="project-tech-stack"
               >
                 {ele.tstack}
@@ -199,12 +200,118 @@ export default function Projects() {
 
 const DIV = styled.div`
   margin-top: 50px;
+
   .animation {
     width: 50%;
     height: 100%;
     margin: 20px auto;
-    /* box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
-      rgba(0, 0, 0, 0.06) 0px 2px 4px -1px; */
+    box-shadow: -2px -2px 5px #fff, 2px 2px 5px #babecc;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  .proj-title {
+    font-size: 3rem;
+    margin: 5px 0;
+  }
+
+  .title-pro {
+    font-size: 1.6rem;
+  }
+
+  .animation div {
+    width: 50%;
+  }
+
+  .pro-dis {
+    text-align: center;
+    justify-content: center;
+    line-height: 1.6;
+    font-size: 1.1rem;
+  }
+
+  .dep-btn {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 10px auto;
+  }
+
+  img {
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+      rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  }
+
+  img:hover {
+    box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px #fff;
+  }
+
+  @media screen and (max-width: 768px) {
+    .animation {
+      width: 95%;
+      margin: 15px auto;
+      flex-direction: column;
+      padding: 0 !important;
+    }
+
+    .proj-title {
+      font-size: 1.5rem;
+    }
+
+    .title-pro {
+      font-size: 1.2rem;
+    }
+
+    .pro-img {
+      width: 95% !important;
+    }
+
+    .dep-btn {
+      width: 100%;
+      justify-content: center;
+    }
+
+    .dep-btn button {
+      margin: 5px;
+      font-size: 0.8rem;
+    }
+
+    .pro-img img {
+      width: 100%;
+    }
+
+    .pro-dis {
+      line-height: 1.2;
+      font-size: 0.8rem;
+      width: 90% !important;
+    }
+  }
+
+  @media screen and (max-width: 1200px) {
+    .animation {
+      width: 90%;
+    }
+
+    .proj-title {
+      font-size: 1.9rem;
+    }
+
+    .title-pro {
+      font-size: 1.4rem;
+    }
+
+    .pro-dis {
+      font-size: 1rem;
+    }
+  }
+
+  /* .animation {
+    width: 50%;
+    height: 100%;
+    margin: 20px auto;
     box-shadow: -2px -2px 5px #fff, 2px 2px 5px #babecc;
 
     display: flex;
@@ -212,10 +319,7 @@ const DIV = styled.div`
     padding: 20px;
     border-radius: 10px;
   }
-  /* .animation:hover {
-    width: 55%;
-    border-radius: 20px;
-  } */
+
   .proj-title {
     font-size: 3rem;
     margin: 5px 0;
@@ -240,7 +344,6 @@ const DIV = styled.div`
   }
   img {
     border-radius: 10px;
-    /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
       rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
   }
@@ -256,10 +359,7 @@ const DIV = styled.div`
       padding: 0 !important;
       width: 100%;
     }
-    .proj-title {
-      /* font-size: 1rem; */
-      /* margin: 5px 0; */
-    }
+   
     .title-pro {
       font-size: 1rem;
     }
@@ -277,7 +377,7 @@ const DIV = styled.div`
       line-height: 1.2;
       font-size: 0.7rem;
     }
-  }
+  } */
 `;
 // {
 //   anim: "",

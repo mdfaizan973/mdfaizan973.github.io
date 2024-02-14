@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import "animate.css/animate.min.css";
+import styled from "styled-components";
 import AOS from "aos";
 import "./Home.css";
 import "aos/dist/aos.css";
@@ -24,7 +25,7 @@ const Home = () => {
     AOS.init({ duration: 2500 });
   }, []);
   return (
-    <>
+    <DIV>
       <Flex
         height={{ base: "80vh", lg: "100vh" }}
         maxHeight={"750px"}
@@ -148,8 +149,15 @@ const Home = () => {
           />
         </Box>
       </Flex>
-    </>
+    </DIV>
   );
 };
 
 export default Home;
+const DIV = styled.div`
+  @media screen and (max-width: 780px) {
+    #home {
+      margin-top: 70px;
+    }
+  }
+`;
