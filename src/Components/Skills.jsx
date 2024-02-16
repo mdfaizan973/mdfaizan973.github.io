@@ -43,7 +43,7 @@ const sliderData1 = [
   {
     image:
       "https://user-images.githubusercontent.com/106812942/255088544-e2550044-1df8-440b-baf1-6dca2ba9165e.png",
-    name: "Telwind CSS",
+    name: "Tailwind CSS",
   },
   {
     image:

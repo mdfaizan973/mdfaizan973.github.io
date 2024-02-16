@@ -16,7 +16,7 @@ export default function Projects() {
       image:
         "https://user-images.githubusercontent.com/106812942/278866276-08e3e6cb-0648-4adb-a9fa-891a98e27d33.png",
       name: "Organic Store",
-      dis: "An Organic Products websilt, Where person can buy all the Organics Food products..--",
+      dis: "An Organic Products website, Where person can buy all the Organics Food products..--",
       pro: "Individuel - Project",
       tstack: "React,HTML,CSS,JS,Axios,Tailwind CSS",
       github: "https://github.com/mdfaizan973/ZC_ORG",
@@ -27,7 +27,7 @@ export default function Projects() {
       image:
         "https://user-images.githubusercontent.com/106812942/262247221-6b79b2f0-da86-4fcb-b4f7-8abe6439712e.png",
       name: "FashionZone",
-      dis: "A FashionZone is a websilt,Where person can buy the clothes as per the choice with famous brands.--",
+      dis: "A FashionZone is a website,Where person can buy the clothes as per the choice with famous brands.--",
       pro: "Individuel - Project",
       tstack: "React,Axios,React-Router-Dom",
       github: "https://github.com/mdfaizan973/FashioZone/",
@@ -60,7 +60,7 @@ export default function Projects() {
       image:
         "https://user-images.githubusercontent.com/106812942/215109393-cfcfb68a-7de0-4554-9380-7d3b65e4f9b6.png",
       name: "Skin-Care",
-      dis: "An E-commerce websilt,Where user can buy skin related products.--",
+      dis: "An E-Commerce website,Where user can buy skin related products.--",
       pro: "Individuel - Project",
       tstack: "HTML,CSS,JS",
       github: "https://github.com/mdfaizan973/SkinCare_Clone",
@@ -71,7 +71,7 @@ export default function Projects() {
       image:
         "https://user-images.githubusercontent.com/106812942/214018158-224d47c0-2f3e-4a72-bc00-53ea918e6fdf.png",
       name: "Fz-Shoes",
-      dis: "An ecommerce websilt,Where user can buy all the products related to shoes.--",
+      dis: "An E-Commerce website,Where user can buy all the products related to shoes.--",
       pro: "Individuel - Project",
       tstack: "React,Axios,Json-Server,React-Router-Dom",
       github:
@@ -105,7 +105,7 @@ export default function Projects() {
       image:
         "https://user-images.githubusercontent.com/106812942/229482067-fc289bf3-4d15-478c-81ea-aebd54b5950e.jpg",
       name: "SmileKart",
-      dis: "An ecommerce websilt,Where user can buy all the A to Z products.--",
+      dis: "An E-Commerce website,Where user can buy all the A to Z products.--",
       pro: "Group - Project",
       tstack: "React,Axios,Json-Server,React-Router-Dom,Redux",
       github: "https://github.com/narender24681/innate-partner-2755",
@@ -116,7 +116,7 @@ export default function Projects() {
       image:
         "https://github.com/mdfaizan973/mdfaizan973/assets/106812942/4eac3e09-97c4-4145-9cff-ce4c4ea5c93f",
       name: "Clotho",
-      dis: "A Clothes websilt,Where user can buy dresses for mens, womens and kids.--",
+      dis: "A Clothes website,Where user can buy dresses for mens, womens and kids.--",
       pro: "Group - Project",
       tstack: "React,Axios,React-Router-Dom,Redux,Node.js,MongooDB",
       github: "https://github.com/hrithikvishwakarma001/incredible-birth-7157",
@@ -127,7 +127,7 @@ export default function Projects() {
       image:
         "https://github.com/mdfaizan973/mdfaizan973/assets/106812942/a3f0797e-71b4-4d55-a9f0-a48d058e1ddc",
       name: "FitnessFuel",
-      dis: "A Fitness websilt,Where person can know about body health and fix his own daily routine.--",
+      dis: "A Fitness website,Where person can know about body health and fix his own daily routine.--",
       pro: "Group - Project",
       tstack: "React,Axios,React-Router-Dom,Redux,Node.js,MongooDB,Telwind CSS",
       github: "https://github.com/VivekTomar03/FitnessFuel",
