@@ -15,7 +15,7 @@ import {
 } from "@chakra-ui/react";
 import React from "react";
 import { BsMouse } from "react-icons/bs";
-import { ImLinkedin } from "react-icons/im";
+import { ImLinkedin, ImWhatsapp } from "react-icons/im";
 import { FaGithub } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { AiOutlineArrowDown, AiOutlineDownload } from "react-icons/ai";
@@ -95,6 +95,13 @@ const Home = () => {
             </Button>
             {/* "https://drive.google.com/file/d/17ti5ypZ77muuZC6yulNyPwNkgbKfpEM2/view?usp=sharing" */}
             <Flex gap="3">
+              <Link
+                id="contact-linkedin"
+                href="https://wa.me/916201855200"
+                isExternal
+              >
+                <ImWhatsapp fontSize={"1.6rem"} />
+              </Link>{" "}
               <Link
                 id="contact-linkedin"
                 href="https://www.linkedin.com/in/md-faizan-380a65246/"

@@ -41,6 +41,13 @@ export default function MiniPro() {
     //   github: "",
     // },
     {
+      image: "https://i.ibb.co/jGcL5ps/Screenshot-1896.png",
+      name: "Google",
+      show: true,
+      live: "https://googlefz.vercel.app/",
+      github: "",
+    },
+    {
       image:
         "https://github-production-user-asset-6210df.s3.amazonaws.com/106812942/265500903-014dd368-21f0-4c72-8686-ad70aa52d036.png",
       name: "Github User Search",
@@ -112,14 +119,14 @@ export default function MiniPro() {
       live: "https://carausal-fz.netlify.app/",
       github: "",
     },
-    {
-      image:
-        "https://user-images.githubusercontent.com/106812942/260710865-2a50a259-849e-4ad5-bb4b-9d1f739e3c5d.png",
-      name: "Rnadom Image Generator",
-      show: true,
-      live: "https://random-image-generater.netlify.app/",
-      github: "",
-    },
+    // {
+    //   image:
+    //     "https://user-images.githubusercontent.com/106812942/260710865-2a50a259-849e-4ad5-bb4b-9d1f739e3c5d.png",
+    //   name: "Rnadom Image Generator",
+    //   show: true,
+    //   live: "https://random-image-generater.netlify.app/",
+    //   github: "",
+    // },
 
     // {
     //   image: "",

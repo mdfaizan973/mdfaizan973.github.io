@@ -5,28 +5,32 @@ import {
   HStack,
   Link,
   SimpleGrid,
-  VStack,
 } from "@chakra-ui/react";
 import React, { useEffect } from "react";
 import "animate.css/animate.min.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import {
-  MdPhone,
+  // MdPhone,
   MdEmail,
   MdLocationOn,
-  MdFacebook,
-  MdOutlineEmail,
+  MdWhatsapp,
+  // MdFacebook,
+  // MdOutlineEmail,
 } from "react-icons/md";
 
-import { BsGithub, BsDiscord, BsPerson } from "react-icons/bs";
+// import { BsGithub, BsDiscord, BsPerson } from "react-icons/bs";
 import { ImLinkedin } from "react-icons/im";
-import { HiOutlineMail } from "react-icons/hi";
+import { HiOutlineMail, HiPhone } from "react-icons/hi";
 import { FaGithub } from "react-icons/fa";
 export default function Contacts() {
   useEffect(() => {
     AOS.init({ duration: 2500 });
   }, []);
+
+  const handleRedirectToWhatsapp = () => {
+    window.location.href = "https://wa.me/916201855200";
+  };
   return (
     <div id="contact" style={{ textAlign: "center" }}>
       <h1 className="proj-title" style={{ fontSize: "3rem", marginTop: "5px" }}>
@@ -47,13 +51,14 @@ export default function Contacts() {
         >
           <SimpleGrid columns={[1, null, 3]} spacing="40px">
             <Button
+              onClick={handleRedirectToWhatsapp}
               size="md"
               id="contact-phone"
               height="48px"
               variant="ghost"
               // color="#DCE2FF"
-              _hover={{ border: "2px solid #1C6FEB" }}
-              leftIcon={<MdPhone color="green" size="20px" />}
+              _hover={{ border: "2px solid green" }}
+              leftIcon={<MdWhatsapp color="green" size="20px" />}
               data-aos="zoom-in-up"
             >
               +91-6201855200
@@ -75,7 +80,7 @@ export default function Contacts() {
               height="48px"
               variant="ghost"
               // color="#DCE2FF"
-              _hover={{ border: "2px solid #1C6FEB" }}
+              _hover={{ border: "2px solid red" }}
               leftIcon={<MdLocationOn color="red" size="20px" />}
               data-aos="zoom-in-up"
             >
@@ -92,21 +97,33 @@ export default function Contacts() {
             alignItems="flex-start"
           >
             <Link
+              id="contact-email"
+              // onClick={handlephonenumber}
+              href="tel:6201855200"
+              isExternal
+              // data-aos="flip-left"
+              // data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000"
+            >
+              <HiPhone fontSize={"1.6rem"} />
+            </Link>
+            <Link
               id="contact-linkedin"
               href="https://www.linkedin.com/in/md-faizan-380a65246/"
               isExternal
-              data-aos="flip-left"
-              data-aos-easing="ease-out-cubic"
+              // data-aos="flip-left"
+              // data-aos-easing="ease-out-cubic"
               data-aos-duration="2000"
             >
               <ImLinkedin fontSize={"1.6rem"} />
             </Link>
+
             <Link
               id="contact-github"
               href="https://github.com/mdfaizan973"
               isExternal
-              data-aos="flip-left"
-              data-aos-easing="ease-out-cubic"
+              // data-aos="flip-left"
+              // data-aos-easing="ease-out-cubic"
               data-aos-duration="2000"
             >
               <FaGithub fontSize={"1.6rem"} />
@@ -115,8 +132,8 @@ export default function Contacts() {
               id="contact-email"
               href="https://faizan.md9735@gmail.com"
               isExternal
-              data-aos="flip-left"
-              data-aos-easing="ease-out-cubic"
+              // data-aos="flip-left"
+              // data-aos-easing="ease-out-cubic"
               data-aos-duration="2000"
             >
               <HiOutlineMail fontSize={"1.6rem"} />

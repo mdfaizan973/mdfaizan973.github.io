@@ -146,7 +146,7 @@ export default function Projects() {
 
       <div>
         {projectsarr.map((ele, i) => (
-          <div className="animation project-card" data-aos={ele.anim}>
+          <div className="animation project-card" data-aos="zoom-in-up">
             <div className="pro-img">
               <img src={ele.image} data-aos="fade-up-right" alt="pro_img" />
             </div>

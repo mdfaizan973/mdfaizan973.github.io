@@ -26,15 +26,18 @@ const About = () => {
           width={{ base: "100%", md: "50%", lg: "35%" }}
           marginTop={"30px"}
         >
-          <Image
-            className="home-img"
-            margin="auto"
-            // border="1px solid grey"
-            borderRadius="50%"
-            boxShadow={"-2px -2px 5px #fff, 2px 2px 5px #babecc"}
-            // src="https://www.alwin.io/images/wazirx/banner_img.webp"
-            src="https://avatars.githubusercontent.com/u/106812942?s=400&u=321d027478cef5cefe38c9a0237b7f260d6277ed&v=4"
-          />
+          <abbr title="Md Faizan! A Full Stack Developer.">
+            <Image
+              className="home-img"
+              margin="auto"
+              // border="1px solid grey"
+              borderRadius="50%"
+              boxShadow={"-2px -2px 5px #fff, 2px 2px 5px #babecc"}
+              src="https://i.ibb.co/zG6mT2x/unnamed.jpg"
+              // src="https://avatars.githubusercontent.com/u/106812942?s=400&u=321d027478cef5cefe38c9a0237b7f260d6277ed&v=4"
+            />
+          </abbr>
+
           {/* https://avatars.githubusercontent.com/u/106812942?v=4 */}
         </Box>
         <Box

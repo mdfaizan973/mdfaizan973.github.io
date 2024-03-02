@@ -48,6 +48,17 @@ export default function Education() {
             </Card>
           </Card>
         </div>
+        {/* <div class="container right">
+          <Card>
+            <Card>
+              <div class="content" data-aos="flip-up">
+                <h2>Intermediate</h2>
+                <h3>High School Gomia</h3>
+                <p>June 2020 - July 2022</p>
+              </div>
+            </Card>
+          </Card>
+        </div> */}
       </div>
     </div>
   );
