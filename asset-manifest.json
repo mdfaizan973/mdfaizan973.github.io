@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.dae3929c.css",
-    "main.js": "/static/js/main.9082a2fe.js",
+    "main.js": "/static/js/main.8cab437d.js",
     "static/js/787.35699173.chunk.js": "/static/js/787.35699173.chunk.js",
     "static/media/Md_Faizan_Resume.pdf": "/static/media/Md_Faizan_Resume.e8f714bbf55de6059fd7.pdf",
     "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
@@ -13,11 +13,11 @@
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
     "main.dae3929c.css.map": "/static/css/main.dae3929c.css.map",
-    "main.9082a2fe.js.map": "/static/js/main.9082a2fe.js.map",
+    "main.8cab437d.js.map": "/static/js/main.8cab437d.js.map",
     "787.35699173.chunk.js.map": "/static/js/787.35699173.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dae3929c.css",
-    "static/js/main.9082a2fe.js"
+    "static/js/main.8cab437d.js"
   ]
 }
