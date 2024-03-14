@@ -23,6 +23,18 @@ export default function Projects() {
       link: "https://organicstore.vercel.app/",
     },
     {
+      anim: "flip-left",
+      image:
+        "https://github.com/mdfaizan973/EduHub-idea_clan/assets/106812942/ccee7c0f-1acd-4791-8208-b09b973f5cb1",
+      name: "Organic Store",
+      dis: "Learning Management System (LMS): A platform for students to learn programming.--",
+      pro: "Individuel - Project",
+      tstack:
+        "React,HTML,CSS,JS,Ant Design(CSS), Node.js, Express.js, Mongo DB",
+      github: "https://github.com/mdfaizan973/EduHub-idea_clan",
+      link: "https://faizanlms.vercel.app/",
+    },
+    {
       anim: "zoom-in",
       image:
         "https://user-images.githubusercontent.com/106812942/262247221-6b79b2f0-da86-4fcb-b4f7-8abe6439712e.png",
@@ -66,18 +78,18 @@ export default function Projects() {
       github: "https://github.com/mdfaizan973/SkinCare_Clone",
       link: "https://my-skincares.netlify.app/",
     },
-    {
-      anim: "flip-right",
-      image:
-        "https://user-images.githubusercontent.com/106812942/214018158-224d47c0-2f3e-4a72-bc00-53ea918e6fdf.png",
-      name: "Fz-Shoes",
-      dis: "An E-Commerce website,Where user can buy all the products related to shoes.--",
-      pro: "Individuel - Project",
-      tstack: "React,Axios,Json-Server,React-Router-Dom",
-      github:
-        "https://github.com/mdfaizan973/thoughtless-scarecrow-7735/tree/main/T-S-7735/fz_shoes",
-      link: "https://fzshoes.netlify.app/",
-    },
+    // {
+    //   anim: "flip-right",
+    //   image:
+    //     "https://user-images.githubusercontent.com/106812942/214018158-224d47c0-2f3e-4a72-bc00-53ea918e6fdf.png",
+    //   name: "Fz-Shoes",
+    //   dis: "An E-Commerce website,Where user can buy all the products related to shoes.--",
+    //   pro: "Individuel - Project",
+    //   tstack: "React,Axios,Json-Server,React-Router-Dom",
+    //   github:
+    //     "https://github.com/mdfaizan973/thoughtless-scarecrow-7735/tree/main/T-S-7735/fz_shoes",
+    //   link: "https://fzshoes.netlify.app/",
+    // },
     {
       anim: "zoom-out",
       image:

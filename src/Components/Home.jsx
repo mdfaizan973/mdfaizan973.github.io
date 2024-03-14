@@ -2,8 +2,8 @@ import { useEffect } from "react";
 import "animate.css/animate.min.css";
 import styled from "styled-components";
 import AOS from "aos";
-import "./Home.css";
 import "aos/dist/aos.css";
+import "./Home.css";
 import {
   Box,
   Button,
@@ -37,7 +37,6 @@ const Home = () => {
         fontSize={"1.3rem"}
         gap={{ base: "4", md: "6", lg: "8" }}
         marginBottom={["40px", "0px", "0px"]}
-        // border={"1px solid red"}
         // justifyContent={"space-evenly"}
       >
         <Flex
