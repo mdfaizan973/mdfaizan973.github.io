@@ -23,7 +23,7 @@ const Navbar = () => {
   useEffect(() => {
     AOS.init({ duration: 2500 });
   }, []);
-
+  console.log(colorMode);
   return (
     <>
       <div>

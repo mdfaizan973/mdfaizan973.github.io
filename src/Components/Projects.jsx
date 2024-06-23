@@ -4,6 +4,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { Button, Text } from "@chakra-ui/react";
 import styled from "styled-components";
+import { Badge } from "antd";
 
 export default function Projects() {
   useEffect(() => {
@@ -26,7 +27,7 @@ export default function Projects() {
       anim: "flip-left",
       image:
         "https://github.com/mdfaizan973/EduHub-idea_clan/assets/106812942/ccee7c0f-1acd-4791-8208-b09b973f5cb1",
-      name: "Organic Store",
+      name: "Learning Management System",
       dis: "Learning Management System (LMS): A platform for students to learn programming.--",
       pro: "Individuel - Project",
       tstack:
@@ -161,7 +162,7 @@ export default function Projects() {
           <div className="animation project-card" data-aos="zoom-in-up">
             <div className="pro-img">
               <img src={ele.image} data-aos="fade-up-right" alt="pro_img" />
-            </div>
+            </div>{" "}
             <div className="pro-dis">
               <h1 className="title-pro project-title">{ele.name}</h1>
               <h1 className="project-description">
@@ -216,7 +217,9 @@ const DIV = styled.div`
     width: 50%;
     height: 100%;
     margin: 20px auto;
-    box-shadow: -2px -2px 5px #fff, 2px 2px 5px #babecc;
+    //  box-shadow: -2px -2px 5px #fff, 2px 2px 5px #babecc;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15),
+      0 4px 12px rgba(255, 255, 255, 0.1);
     display: flex;
     align-items: center;
     padding: 20px;

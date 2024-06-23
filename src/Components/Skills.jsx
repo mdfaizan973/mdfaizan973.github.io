@@ -47,6 +47,11 @@ const sliderData1 = [
   },
   {
     image:
+      "https://static-00.iconduck.com/assets.00/ant-design-icon-2048x2046-dl3neb73.png",
+    name: "Ant Design",
+  },
+  {
+    image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaTyuFXQDDOUPdafq8kkiBQ1Ai-ovU_avXecDIkszkPTeOxZ5R8H8g99xl6vRfQH-w4BA&usqp=CAU",
     name: "Axios",
   },

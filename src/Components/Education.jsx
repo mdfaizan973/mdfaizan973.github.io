@@ -18,6 +18,17 @@ export default function Education() {
       </h1>
       <div class="timeline">
         <div class="container left">
+          <Card>
+            <Card>
+              <div class="content" data-aos="flip-up">
+                <h2>BCA (Bachelor of Computer Application) </h2>
+                <h3>Binod Bihari Mahto Koyalanchal University</h3>
+                <p>August 2023 - Present</p>
+              </div>
+            </Card>
+          </Card>
+        </div>
+        <div class="container right">
           <Card s>
             <div class="content" data-aos="flip-down">
               <h2>Full Stack Web Developement</h2>
@@ -26,7 +37,7 @@ export default function Education() {
             </div>
           </Card>
         </div>
-        <div class="container right">
+        <div class="container left">
           <Card>
             <Card>
               <div class="content" data-aos="flip-up">
@@ -37,7 +48,7 @@ export default function Education() {
             </Card>
           </Card>
         </div>
-        <div class="container left">
+        <div class="container right">
           <Card>
             <Card>
               <div class="content" data-aos="flip-down">
@@ -48,17 +59,6 @@ export default function Education() {
             </Card>
           </Card>
         </div>
-        {/* <div class="container right">
-          <Card>
-            <Card>
-              <div class="content" data-aos="flip-up">
-                <h2>Intermediate</h2>
-                <h3>High School Gomia</h3>
-                <p>June 2020 - July 2022</p>
-              </div>
-            </Card>
-          </Card>
-        </div> */}
       </div>
     </div>
   );

@@ -2,9 +2,14 @@ import {
   Box,
   Button,
   Center,
+  FormControl,
+  FormLabel,
   HStack,
+  Input,
   Link,
   SimpleGrid,
+  Textarea,
+  useToast,
 } from "@chakra-ui/react";
 import React, { useEffect } from "react";
 import "animate.css/animate.min.css";
@@ -23,6 +28,7 @@ import {
 import { ImLinkedin } from "react-icons/im";
 import { HiOutlineMail, HiPhone } from "react-icons/hi";
 import { FaGithub } from "react-icons/fa";
+import MyForm from "./Form";
 export default function Contacts() {
   useEffect(() => {
     AOS.init({ duration: 2500 });
@@ -31,6 +37,7 @@ export default function Contacts() {
   const handleRedirectToWhatsapp = () => {
     window.location.href = "https://wa.me/916201855200";
   };
+
   return (
     <div id="contact" style={{ textAlign: "center" }}>
       <h1 className="proj-title" style={{ fontSize: "3rem", marginTop: "5px" }}>
@@ -141,6 +148,8 @@ export default function Contacts() {
           </HStack>
         </Center>
       </Box>
+
+      {/* <MyForm /> */}
     </div>
   );
 }
