@@ -114,6 +114,7 @@ export default function Contacts() {
             >
               <HiPhone fontSize={"1.6rem"} />
             </Link>
+
             <Link
               id="contact-linkedin"
               href="https://www.linkedin.com/in/md-faizan-380a65246/"
@@ -123,6 +124,13 @@ export default function Contacts() {
               data-aos-duration="2000"
             >
               <ImLinkedin fontSize={"1.6rem"} />
+            </Link>
+
+            <Link>
+              <img
+                src="https://komarev.com/ghpvc/?username=mdfaizan973&label=GitHUb Profile%20views&color=0e75b6&style=flat"
+                alt="mdfaizan973"
+              />
             </Link>
 
             <Link
@@ -135,6 +143,7 @@ export default function Contacts() {
             >
               <FaGithub fontSize={"1.6rem"} />
             </Link>
+
             <Link
               id="contact-email"
               href="https://faizan.md9735@gmail.com"
@@ -145,6 +154,7 @@ export default function Contacts() {
             >
               <HiOutlineMail fontSize={"1.6rem"} />
             </Link>
+            <br />
           </HStack>
         </Center>
       </Box>

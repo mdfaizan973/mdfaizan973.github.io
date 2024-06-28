@@ -12,6 +12,7 @@ import Carousal from "./Components/Carousal";
 import Education from "./Components/Education";
 import Arrow, { DIRECTION } from "react-arrows";
 // import Part from "./Components/Part";
+
 function App() {
   return (
     <div className="App">
@@ -19,6 +20,7 @@ function App() {
       {/* <Part /> */}
       {/* <Carousal /> */}
       <Navbar />
+
       <Home />
       <About />
       <Skills />

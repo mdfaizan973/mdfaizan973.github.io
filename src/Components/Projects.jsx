@@ -68,17 +68,17 @@ export default function Projects() {
       github: "https://github.com/mdfaizan973/Food_Website",
       link: "https://food-fz.netlify.app/",
     },
-    {
-      anim: "flip-right",
-      image:
-        "https://user-images.githubusercontent.com/106812942/215109393-cfcfb68a-7de0-4554-9380-7d3b65e4f9b6.png",
-      name: "Skin-Care",
-      dis: "An E-Commerce website,Where user can buy skin related products.--",
-      pro: "Individuel - Project",
-      tstack: "HTML,CSS,JS",
-      github: "https://github.com/mdfaizan973/SkinCare_Clone",
-      link: "https://my-skincares.netlify.app/",
-    },
+    // {
+    //   anim: "flip-right",
+    //   image:
+    //     "https://user-images.githubusercontent.com/106812942/215109393-cfcfb68a-7de0-4554-9380-7d3b65e4f9b6.png",
+    //   name: "Skin-Care",
+    //   dis: "An E-Commerce website,Where user can buy skin related products.--",
+    //   pro: "Individuel - Project",
+    //   tstack: "HTML,CSS,JS",
+    //   github: "https://github.com/mdfaizan973/SkinCare_Clone",
+    //   link: "https://my-skincares.netlify.app/",
+    // },
     // {
     //   anim: "flip-right",
     //   image:
@@ -102,17 +102,17 @@ export default function Projects() {
       github: "https://github.com/mdfaizan973/interesting-vase-9902",
       link: "https://flowerfz.netlify.app/",
     },
-    {
-      anim: "zoom-out",
-      image:
-        "https://user-images.githubusercontent.com/106812942/218271324-c3071ba5-560d-4029-bcfe-9263fb982e5d.png",
-      name: "Furniture-Stock",
-      dis: " An E-commerce website, Where user can buy home or furniture related products.--",
-      pro: "Group - Project",
-      tstack: "HTML,CSS,JS,Json,Server",
-      github: "https://github.com/deepakChourasiya-aj/amiable-place-6800",
-      link: "https://sensational-druid-3f736c.netlify.app/",
-    },
+    // {
+    //   anim: "zoom-out",
+    //   image:
+    //     "https://user-images.githubusercontent.com/106812942/218271324-c3071ba5-560d-4029-bcfe-9263fb982e5d.png",
+    //   name: "Furniture-Stock",
+    //   dis: " An E-commerce website, Where user can buy home or furniture related products.--",
+    //   pro: "Group - Project",
+    //   tstack: "HTML,CSS,JS,Json,Server",
+    //   github: "https://github.com/deepakChourasiya-aj/amiable-place-6800",
+    //   link: "https://sensational-druid-3f736c.netlify.app/",
+    // },
     {
       anim: "flip-left",
       image:
@@ -224,6 +224,7 @@ const DIV = styled.div`
     align-items: center;
     padding: 20px;
     border-radius: 10px;
+    border: 1px solid #e8e8e8;
   }
 
   .proj-title {

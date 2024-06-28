@@ -7,6 +7,8 @@ import "animate.css/animate.min.css";
 import { AnimationOnScroll } from "react-animation-on-scroll";
 import { Box, Card, Image, Text } from "@chakra-ui/react";
 import styled from "styled-components";
+import { Badge } from "antd";
+import ResponsiveCard from "./ResponsiveCard";
 
 const sliderData1 = [
   {
@@ -22,7 +24,7 @@ const sliderData1 = [
   {
     image:
       "https://user-images.githubusercontent.com/106812942/255094159-1381596d-06ae-422b-9321-94903c9c6cb3.png",
-    name: "JS",
+    name: "Java-Script",
   },
   {
     image:
@@ -184,21 +186,32 @@ export default function Skills() {
         <div class="skill-list">
           {sliderData1.map((el, index) => {
             return (
-              <div
-                key={index}
-                class="skill-card"
-                data-aos="fade-up"
-                data-aos-anchor-placement="center-bottom"
-              >
-                <img src={el.image} alt="CSS" class="skill-image" />
-                <Text>{el.name}</Text>
-              </div>
+              <Card>
+                <div
+                  key={index}
+                  class="skill-card"
+                  data-aos="fade-up"
+                  data-aos-anchor-placement="center-bottom"
+                >
+                  <Badge.Ribbon
+                    text={el.name}
+                    color="tomato"
+                    style={{ fontWeight: "bold" }}
+                  >
+                    <img src={el.image} alt="CSS" class="skill-image" />
+                    {/* <Badge.Ribbon text={el.name} color="red">
+                    <Text visibility={"hidden"}>{el.name}</Text>
+                  </Badge.Ribbon> */}
+                  </Badge.Ribbon>
+                </div>
+              </Card>
             );
           })}
         </div>
       </div>
-
+      {/* Added Badge and comment the Text */}
       <hr />
+      {/* <ResponsiveCard /> */}
     </DIV>
   );
 }
@@ -241,14 +254,16 @@ const DIV = styled.div`
   .skill-card {
     border-radius: 10px;
     /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
-    box-shadow: -2px -2px 5px #fff, 2px 2px 5px #babecc;
-    padding: 20px;
+    /* box-shadow: -2px -2px 5px #fff, 2px 2px 5px #babecc; */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+    /* border: 1px solid #e8e8e8; */
+    padding: 10px;
     text-align: center;
     transition: transform 0.3s ease;
     width: 150px;
   }
   .skill-card:hover {
-    box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px #fff;
+    /* box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px #fff; */
   }
   .skill-image {
     max-width: 100px;

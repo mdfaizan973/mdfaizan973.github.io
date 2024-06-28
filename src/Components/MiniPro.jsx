@@ -14,6 +14,7 @@ import {
   Text,
 } from "@chakra-ui/react";
 import { useEffect } from "react";
+import { Badge } from "antd";
 export default function MiniPro() {
   let arr = [
     {
@@ -150,23 +151,29 @@ export default function MiniPro() {
       <SimpleGrid columns={[2, 3, 5]} spacing="40px">
         {arr.map((ele, i) => (
           <Card key={i} maxW="100%" className="animation" data-aos="zoom-out">
-            <CardBody>
-              <Image
-                className="img"
-                src={ele.image}
-                alt={ele.name}
-                borderRadius="lg"
-              />
-            </CardBody>
-            <Text fontSize={"xl"}>{ele.name}</Text>
-            <Divider />
-            <HStack p={"5"} justifyContent={"center"}>
-              <Button variant="solid">
-                <a href={ele.live} rel="noreferrer" target="_blank">
-                  Live
-                </a>
-              </Button>
-            </HStack>
+            <Badge.Ribbon
+              text={ele.name}
+              color="tomato"
+              style={{ fontWeight: "bold" }}
+            >
+              <CardBody>
+                <Image
+                  className="img"
+                  src={ele.image}
+                  alt={ele.name}
+                  borderRadius="lg"
+                />
+              </CardBody>
+              {/* <Text fontSize={"xl"}>{ele.name}</Text> */}
+              <Divider />
+              <HStack p={"3"} justifyContent={"center"}>
+                <Button variant="solid">
+                  <a href={ele.live} rel="noreferrer" target="_blank">
+                    Live
+                  </a>
+                </Button>
+              </HStack>
+            </Badge.Ribbon>{" "}
           </Card>
         ))}
       </SimpleGrid>
@@ -181,5 +188,16 @@ const DIV = styled.div`
   margin: auto;
   .img {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+
+  .badge-ribbon {
+    /* Modify size here: */
+    --size: 50px;
+
+    position: relative;
+    background: #333;
+    height: var(--size);
+    width: var(--size);
+    border-radius: 50px;
   }
 `;
