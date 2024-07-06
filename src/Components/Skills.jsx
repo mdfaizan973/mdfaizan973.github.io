@@ -186,25 +186,28 @@ export default function Skills() {
         <div class="skill-list">
           {sliderData1.map((el, index) => {
             return (
-              <Card>
-                <div
-                  key={index}
-                  class="skill-card"
-                  data-aos="fade-up"
-                  data-aos-anchor-placement="center-bottom"
+              // <Card
+              //   data-aos="fade-up"
+              //   data-aos-anchor-placement="center-bottom"
+              // >
+              <div
+                key={index}
+                class="skill-card"
+                data-aos="fade-up"
+                data-aos-anchor-placement="center-bottom"
+              >
+                <Badge.Ribbon
+                  text={el.name}
+                  color="tomato"
+                  style={{ fontWeight: "bold" }}
                 >
-                  <Badge.Ribbon
-                    text={el.name}
-                    color="tomato"
-                    style={{ fontWeight: "bold" }}
-                  >
-                    <img src={el.image} alt="CSS" class="skill-image" />
-                    {/* <Badge.Ribbon text={el.name} color="red">
+                  <img src={el.image} alt="CSS" class="skill-image" />
+                  {/* <Badge.Ribbon text={el.name} color="red">
                     <Text visibility={"hidden"}>{el.name}</Text>
                   </Badge.Ribbon> */}
-                  </Badge.Ribbon>
-                </div>
-              </Card>
+                </Badge.Ribbon>
+              </div>
+              // </Card>
             );
           })}
         </div>
@@ -256,7 +259,7 @@ const DIV = styled.div`
     /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
     /* box-shadow: -2px -2px 5px #fff, 2px 2px 5px #babecc; */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
-    /* border: 1px solid #e8e8e8; */
+    border: 1px solid #e8e8e8;
     padding: 10px;
     text-align: center;
     transition: transform 0.3s ease;

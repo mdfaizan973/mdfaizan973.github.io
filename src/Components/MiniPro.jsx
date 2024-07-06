@@ -14,7 +14,7 @@ import {
   Text,
 } from "@chakra-ui/react";
 import { useEffect } from "react";
-import { Badge } from "antd";
+import { Badge, Row } from "antd";
 export default function MiniPro() {
   let arr = [
     {
