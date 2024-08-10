@@ -1,6 +1,6 @@
 import styled from "@emotion/styled";
 import "./App.css";
-import PortfolioVersion1 from "./Portfolios/PortfolioVersion1";
+// import PortfolioVersion1 from "./Portfolios/PortfolioVersion1";
 import PortfolioVersion2 from "./Portfolios/PortfolioVersion2";
 
 function App() {
