@@ -7,7 +7,6 @@ function App() {
   return (
     <div className="App">
       {/* <PortfolioVersion1 /> */}
-
       <PortfolioVersionTwoContainerStyled>
         <PortfolioVersion2 />
       </PortfolioVersionTwoContainerStyled>
