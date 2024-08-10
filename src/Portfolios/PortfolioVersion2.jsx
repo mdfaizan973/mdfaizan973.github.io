@@ -25,12 +25,14 @@ const MainPortfolioTwoContainer = styled.div`
   justify-content: space-between;
   padding: 10px;
   width: 90%;
-  margin: 50px auto;
+  margin: 100px auto;
+  font-family: -apple-system, BlinkMacSystemFont, "Roboto", sans-serif !important;
+  /* font-family: cursive; */
 
   .sidebarcontainer {
     width: 20%;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-    height: 600px;
+    /* box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; */
+    height: 35rem;
     position: fixed;
     left: 5%;
     background-color: white;
@@ -40,7 +42,7 @@ const MainPortfolioTwoContainer = styled.div`
   .maincontainer {
     width: 60%;
     height: 900px;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    /* box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; */
     margin-left: 27%;
     overflow-y: auto;
     background-color: white;
@@ -49,8 +51,8 @@ const MainPortfolioTwoContainer = styled.div`
 
   .linkcontainer {
     width: 8%;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-    height: 600px;
+    /* box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; */
+    height: 35rem;
     position: fixed;
     right: 5%;
     background-color: white;

@@ -18,5 +18,5 @@ function App() {
 export default App;
 
 const PortfolioVersionTwoContainerStyled = styled.div`
-  background-color: ghostwhite;
+  /* background-color: ghostwhite; */
 `;

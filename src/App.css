@@ -2,6 +2,15 @@
   text-align: center;
   /* font-family: cursive !important; */
   overflow: hidden;
+  /* background-color: ghostwhite !important; */
+  background: linear-gradient(
+    90deg,
+    #edd3ec,
+    #d7def1,
+    #f0edec,
+    #dee6ed,
+    #daf7f1
+  );
 }
 
 .App-logo {
