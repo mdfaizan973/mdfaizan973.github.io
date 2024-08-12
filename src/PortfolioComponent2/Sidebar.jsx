@@ -90,10 +90,12 @@ const SidebarContainerStyled = styled.div`
   .profile_image {
     width: 70%;
     margin: auto;
-    border-radius: 20px;
+    /* border-radius: 20px; */
     overflow: hidden;
     height: 240px;
     margin-top: -100px;
+    border-radius: 43% 57% 55% 45% / 27% 44% 56% 73%;
+    border: 2px solid skyblue;
   }
   .profile_image img {
     object-fit: cover;

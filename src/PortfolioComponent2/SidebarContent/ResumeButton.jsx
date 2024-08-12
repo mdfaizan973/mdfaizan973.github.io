@@ -1,11 +1,17 @@
 import React from "react";
 import styled from "@emotion/styled";
 import { DownloadIcon } from "@chakra-ui/icons";
+import Md_Faizan_resumenew from "../Md_Faizan_resumenew.pdf";
 export default function ResumeButton() {
+  const handleDownloadResume = () => {
+    console.log(Md_Faizan_resumenew);
+  };
   return (
     <div>
-      <ButtonResume>
+      <ButtonResume onClick={handleDownloadResume}>
+        {/* <a href={Md_Faizan_resumenew} download="Md_Faizan_resumenew.pdf"> */}
         <span>Resume</span>
+        {/* </a> */}
         <DownloadIcon />
       </ButtonResume>
     </div>
