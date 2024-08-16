@@ -1,32 +1,34 @@
-import styled from "@emotion/styled";
 import React from "react";
+import HeaderSection from "../Helper/HeaderSection";
+import styled from "@emotion/styled";
 
 export default function About() {
   return (
-    <div>
+    <AboutContainerStyled id="About">
       <HeaderSection title={"About"} />
-    </div>
+
+      <div className="about_content">
+        <p>
+          A Full-Stack Web Developer specializing in MERN Stack with good
+          proficiency in HTML, CSS, JS, ReactJS, Redux, NodeJS, ExpressJS,
+          MongoDB, Data Structures and Algorithms. Has a Problem-Solving mindset
+          and the ability to perform well in a team.
+        </p>
+        <br />
+        <p>
+          Acquired 1200+ hours of coding and hands-on experience in cloning
+          websites. Looking forward to working as an accountable and competent
+          professional in an exciting tech organization.
+        </p>
+      </div>
+    </AboutContainerStyled>
   );
 }
 
-const HeaderSection = ({ title }) => {
-  return (
-    <HeaderDivStyled>
-      <h1 className="header_title">{title}</h1>
-      <div className="header_line"></div>
-    </HeaderDivStyled>
-  );
-};
-
-const HeaderDivStyled = styled.div`
-  border: 1px solid black;
-  /* text-align: left; */
-  padding: 0.5em;
-  display: flex;
-  align-items: center;
-  .header_line {
-    width: 60%;
-    height: 5px;
-    background-color: blue;
+const AboutContainerStyled = styled.div`
+  .about_content {
+    text-align: start;
+    color: #75797c;
+    font-size: 1.05rem;
   }
 `;

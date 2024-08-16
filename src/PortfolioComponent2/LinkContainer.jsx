@@ -5,7 +5,7 @@ import { RiProjector2Fill } from "react-icons/ri";
 import { FaFileAlt } from "react-icons/fa";
 import { MdContactPhone } from "react-icons/md";
 import { GiSkills } from "react-icons/gi";
-import { FaGithub } from "react-icons/fa";
+import { MdWorkHistory } from "react-icons/md";
 export default function LinkContainer() {
   const linksIcon = [
     {
@@ -13,36 +13,43 @@ export default function LinkContainer() {
       links: "",
       text: "About",
       background: "#edd3ec",
+      id: "About",
     },
     {
       icons: <FaFileAlt />,
       links: "",
       text: "Resume",
       background: "#edd3ec",
-    },
-    {
-      icons: <FaGithub />,
-      links: "",
-      text: "Github",
-      background: "#edd3ec",
+      id: "Resume",
     },
     {
       icons: <GiSkills />,
       links: "",
       text: "Skills",
       background: "skyblue",
+      id: "Skills",
     },
+    {
+      icons: <MdWorkHistory />,
+      links: "",
+      text: "Experience and Education",
+      background: "#edd3ec",
+      id: "Expe_Edu",
+    },
+
     {
       icons: <RiProjector2Fill />,
       links: "",
       text: "Projects",
       background: "#56a48c",
+      id: "Projects",
     },
     {
       icons: <MdContactPhone />,
       links: "",
       text: "Contacts",
       background: "#48a3a6",
+      id: "Contacts",
     },
   ];
   return (
@@ -54,7 +61,7 @@ export default function LinkContainer() {
             title={ele.text}
             key={i}
           >
-            {ele.icons}
+            <a href={`#${ele.id}`}>{ele.icons}</a>
 
             {/* <span style={{ fontSize: "0.7rem" }}>{ele.text}</span> */}
           </LinkContainerStyled>
