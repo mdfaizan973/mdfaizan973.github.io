@@ -42,7 +42,7 @@ export default function Skills() {
           ))}
       </TabsContainerStyled>
 
-      <SkillsComponentStyled>{selectedTab.component}</SkillsComponentStyled>
+      <TabComponentStyled>{selectedTab.component}</TabComponentStyled>
     </SkillsContainerStyled>
   );
 }
@@ -51,12 +51,12 @@ const SkillsContainerStyled = styled.div`
   margin-top: 10px;
 `;
 
-const TabsContainerStyled = styled.div`
+export const TabsContainerStyled = styled.div`
   display: flex;
   justify-content: space-evenly;
 `;
 
-const SkillsComponentStyled = styled.div`
+export const TabComponentStyled = styled.div`
   width: 95%;
   margin: 20px auto;
   color: #75797c;

@@ -6,6 +6,7 @@ export default function Tools() {
   const toolsArray = [
     {
       image: "https://i.ibb.co/QcNgwjb/free-slack-6343405-5221074.webp",
+      // image: "../../../../public/free-slack-6343405-5221074.webp",
       text: "Slack",
     },
     {

@@ -1,6 +1,7 @@
 import React from "react";
 import About from "./ContentContainer/About";
 import Skills from "./ContentContainer/SkillsFolder/Skills";
+import ExperienceAndEducation from "./ContentContainer/ExperienceAndEducation/ExperienceAndEducation";
 
 export default function MiddleContaner() {
   return (
@@ -12,6 +13,7 @@ export default function MiddleContaner() {
     >
       <About />
       <Skills />
+      <ExperienceAndEducation />
     </div>
   );
 }

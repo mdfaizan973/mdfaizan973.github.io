@@ -19,13 +19,14 @@ const HeaderDivStyled = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 55%;
+    gap: 5px;
+    width: 100%;
   }
   .header_title {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
   .header_line {
-    width: 60%;
+    width: 50%;
     height: 4px;
     background-color: #daf7f1;
   }
