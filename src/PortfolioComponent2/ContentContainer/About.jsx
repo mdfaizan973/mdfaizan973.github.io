@@ -1,13 +1,36 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import HeaderSection from "../Helper/HeaderSection";
 import styled from "@emotion/styled";
+// import Typed from "typed.js";
 
 export default function About() {
+  // const typedElementRef = useRef(null);
+
+  // useEffect(() => {
+  //   const options = {
+  //     strings: ["Student", "Programmer", "Developer"],
+  //     typeSpeed: 100,
+  //     backSpeed: 100,
+  //     backDelay: 1000,
+  //     loop: true,
+  //   };
+
+  //   const typed = new Typed(typedElementRef.current, options);
+
+  //   return () => {
+  //     typed.destroy();
+  //   };
+  // }, []);
+
   return (
     <AboutContainerStyled id="About">
       <HeaderSection title={"About"} />
 
       <div className="about_content">
+        {/* <div
+          className="multiple-text"
+          ref={typedElementRef}
+        ></div> */}
         <p>
           A Full-Stack Web Developer specializing in MERN Stack with good
           proficiency in HTML, CSS, JS, ReactJS, Redux, NodeJS, ExpressJS,

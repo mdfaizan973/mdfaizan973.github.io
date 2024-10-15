@@ -18,9 +18,11 @@ const ImageContainerSkill = styled.div`
   .imageContainer {
     height: 95px;
     width: 95px;
-    border-radius: 10px;
     padding: 5px;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    /* border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; */
+    box-shadow: 10px 10px 40px hsla(0, 0%, 0%, 0.1);
+    border-radius: 12px;
     cursor: pointer;
     overflow: hidden;
   }

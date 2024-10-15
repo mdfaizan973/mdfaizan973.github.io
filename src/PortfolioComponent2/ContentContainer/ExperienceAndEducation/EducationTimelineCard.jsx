@@ -57,7 +57,7 @@ const EducationExperienceTimelineStyled = styled.div`
     display: grid;
     grid-template-rows: min-content min-content min-content;
     box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
-    border-radius: 10px;
+    border-radius: 12px;
   }
 
   /* date */
