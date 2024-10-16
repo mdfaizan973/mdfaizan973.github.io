@@ -1,33 +1,34 @@
 import styled from "@emotion/styled";
+import { Tag } from "antd";
 import React from "react";
 
 export default function SingleData({ handleCancel, singleData }) {
-  const { backgroundImage } = singleData;
+  const { title, techStack, description, backgroundImage, githubURL, liveURL } =
+    singleData;
+
   return (
     <div>
       <Container>
         <HeaderSection>
-          <Title>This is The Title</Title>
-          <Image src="../../../../public/organicstore.png" alt="Dashboard" />
+          <Title>{title}</Title>
+          <Image src={backgroundImage} alt="Dashboard" />
         </HeaderSection>
 
-        <Description>
-          Ant Design interprets the color system into two levels: a system-level
-          color system and a product-level color system.
-        </Description>
+        <Description>{description}</Description>
 
         <StatusTagContainer>
-          <StatusTag>HTML</StatusTag>
-          <StatusTag>CSS</StatusTag>
-          <StatusTag>REACT</StatusTag>
-          <StatusTag>DSA</StatusTag>
-          <StatusTag>JS</StatusTag>
+          {techStack.map((ele, i) => (
+            <Tag color="black">{ele.name}</Tag>
+          ))}
         </StatusTagContainer>
-
         <ButtonGroup>
           <div>
-            <Button>Live</Button>
-            <Button>Code</Button>
+            <Button target="_blank" href={liveURL}>
+              Live
+            </Button>
+            <Button target="_blank" href={githubURL}>
+              Code
+            </Button>
           </div>
           <Button style={{ borderRadius: "50%" }} onClick={handleCancel}>
             X
@@ -73,15 +74,6 @@ const StatusTagContainer = styled.div`
   text-align: start;
 `;
 
-const StatusTag = styled.span`
-  background-color: black;
-  color: #fff;
-  border-radius: 12px;
-  padding: 4px 12px;
-  margin-right: 8px;
-  font-size: 12px;
-`;
-
 const Description = styled.p`
   margin: 12px 0;
   font-size: 16px;
@@ -94,7 +86,7 @@ const ButtonGroup = styled.div`
   justify-content: space-between;
 `;
 
-const Button = styled.button`
+const Button = styled.a`
   background-color: #ffff;
   color: black;
   border: 1px solid #ddd;

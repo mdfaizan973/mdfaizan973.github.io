@@ -2,40 +2,40 @@ import { ViewIcon } from "@chakra-ui/icons";
 import styled from "@emotion/styled";
 import { Tag } from "antd";
 
-export default function ProjectCard({
-  title,
-  description,
-  techStack,
-  backgroundColor,
-  handleDetails,
-  ele,
-}) {
+export default function ProjectCard({ handleDetails, ele }) {
   return (
-    <ProjectCardStyled backgroundColor={backgroundColor}>
-      <CardOverlay>
-        <CardContent>
-          <CardHeader>
-            <Title>{title}</Title>
-            <div className="view_icon" onClick={() => handleDetails(ele)}>
-              <ViewIcon />
-            </div>
-          </CardHeader>
+    <>
+      <ProjectCardStyled>
+        <CardOverlay>
+          <CardContent>
+            <CardHeader>
+              <Title>{ele.title}</Title>
+              <div className="view_icon" onClick={() => handleDetails(ele)}>
+                <ViewIcon />
+              </div>
+            </CardHeader>
 
-          <Description>{description}</Description>
-          <TechStack>
-            {techStack.map((tech, index) => (
-              <Tag key={index} color={tech.color || "default"}>
-                {tech.name}
-              </Tag>
-            ))}
-          </TechStack>
-          <ButtonGroup>
-            <Button href="#">Live</Button>
-            <Button href="#">Code</Button>
-          </ButtonGroup>
-        </CardContent>
-      </CardOverlay>
-    </ProjectCardStyled>
+            <Description>{ele.description}</Description>
+            <TechStack>
+              {ele &&
+                ele.techStack.map((tech, index) => (
+                  <Tag key={index} color={"black"}>
+                    {tech.name}
+                  </Tag>
+                ))}
+            </TechStack>
+            <ButtonGroup>
+              <Button target="_blank" href={ele.liveURL}>
+                Live
+              </Button>
+              <Button target="_blank" href={ele.githubURL}>
+                Code
+              </Button>
+            </ButtonGroup>
+          </CardContent>
+        </CardOverlay>
+      </ProjectCardStyled>
+    </>
   );
 }
 
@@ -43,7 +43,6 @@ const ProjectCardStyled = styled.div`
   width: 300px;
   height: 250px;
   border-radius: 12px;
-  /* background-color: ${({ backgroundColor }) => `${backgroundColor}`}; */
   background-color: #daf7f1;
   background-size: cover;
   background-position: center;
@@ -105,12 +104,19 @@ const Description = styled.p`
   color: black;
   margin-bottom: -10px;
   text-align: start;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 `;
 
 const TechStack = styled.p`
   font-size: 0.85rem;
   text-align: start;
   margin-bottom: -20px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: black;
 `;
 
 const ButtonGroup = styled.div`
