@@ -5,11 +5,15 @@ import MiddleContaner from "../PortfolioComponent2/MiddleContaner";
 import LinkContainer from "../PortfolioComponent2/LinkContainer";
 import BottomNav from "../PortfolioComponent2/SidebarContent/BottomNav";
 import AnimatedCursor from "react-animated-cursor";
+import TopResumeButton from "../PortfolioComponent2/Helper/TopResumeButton";
 
 export default function PortfolioVersion2() {
   return (
     <>
       <AnimatedCursor />
+      <StickyContainer>
+        <TopResumeButton />
+      </StickyContainer>
 
       <MainPortfolioTwoContainer>
         <div className="sidebarcontainer">
@@ -23,9 +27,9 @@ export default function PortfolioVersion2() {
         </div>
       </MainPortfolioTwoContainer>
 
-      <BottomNavbarStyled>
+      <StickyContainer>
         <BottomNav />
-      </BottomNavbarStyled>
+      </StickyContainer>
     </>
   );
 }
@@ -87,7 +91,7 @@ const MainPortfolioTwoContainer = styled.div`
   }
 `;
 
-const BottomNavbarStyled = styled.div`
+const StickyContainer = styled.div`
   display: none;
   border-radius: 20px;
   overflow: hidden;
