@@ -3,6 +3,7 @@ import About from "./ContentContainer/About";
 import Skills from "./ContentContainer/SkillsFolder/Skills";
 import ExperienceAndEducation from "./ContentContainer/ExperienceAndEducation/ExperienceAndEducation";
 import Projects from "./ContentContainer/Projects/Projects";
+import Contact from "./ContentContainer/Contacts/Contact";
 
 export default function MiddleContaner() {
   return (
@@ -15,8 +16,8 @@ export default function MiddleContaner() {
       <About />
       <Skills />
       <ExperienceAndEducation />
-
       <Projects />
+      <Contact />
     </div>
   );
 }

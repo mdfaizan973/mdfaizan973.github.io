@@ -34,10 +34,10 @@ export default function BigProject() {
       techStack: [
         { name: "React" },
         { name: "HTML" },
+        { name: "Node JS" },
         { name: "CSS" },
         { name: "JS" },
         { name: "Ant Design(CSS)" },
-        { name: "Node JS" },
         { name: "Express JS" },
         { name: "Mongo DB" },
       ],
@@ -65,20 +65,41 @@ export default function BigProject() {
       madeBy: "Individuel - Project",
     },
 
+    // {
+    //   title: "FashionZone",
+    //   description:
+    //     "FashionZone is a website where a person can buy clothes of their choice with famous brands.",
+    //   techStack: [
+    //     { name: "React" },
+    //     { name: "Axios" },
+    //     { name: "React-Router-Dom" },
+    //   ],
+    //   backgroundImage:
+    //     "https://user-images.githubusercontent.com/106812942/262247221-6b79b2f0-da86-4fcb-b4f7-8abe6439712e.png",
+    //   githubURL: "https://github.com/mdfaizan973/FashioZone/",
+    //   liveURL: "https://myfashionzonefz.netlify.app/",
+    //   madeBy: "Individuel - Project",
+    // },
+
     {
-      title: "FashionZone",
+      title: "Clotho",
       description:
-        "FashionZone is a website where a person can buy clothes of their choice with famous brands.",
+        "A clothes website where users can buy dresses for men, women, and kids.",
       techStack: [
         { name: "React" },
-        { name: "Axios" },
+        { name: "Node.js" },
+        { name: "MongoDB" },
+        { name: "Redux" },
         { name: "React-Router-Dom" },
+        { name: "Axios" },
+        { name: "Express.js" },
       ],
       backgroundImage:
-        "https://user-images.githubusercontent.com/106812942/262247221-6b79b2f0-da86-4fcb-b4f7-8abe6439712e.png",
-      githubURL: "https://github.com/mdfaizan973/FashioZone/",
-      liveURL: "https://myfashionzonefz.netlify.app/",
-      madeBy: "Individuel - Project",
+        "https://github.com/mdfaizan973/mdfaizan973/assets/106812942/4eac3e09-97c4-4145-9cff-ce4c4ea5c93f",
+      githubURL:
+        "https://github.com/hrithikvishwakarma001/incredible-birth-7157",
+      liveURL: "https://clotho.vercel.app/",
+      madeBy: "Group - Project",
     },
   ];
 

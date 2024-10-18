@@ -7,51 +7,6 @@ import { MdContactPhone } from "react-icons/md";
 import { GiSkills } from "react-icons/gi";
 import { MdWorkHistory } from "react-icons/md";
 export default function LinkContainer() {
-  const linksIcon = [
-    {
-      icons: <FaUserAstronaut />,
-      links: "",
-      text: "About",
-      background: "#edd3ec",
-      id: "About",
-    },
-    {
-      icons: <FaFileAlt />,
-      links: "",
-      text: "Resume",
-      background: "#edd3ec",
-      id: "Resume",
-    },
-    {
-      icons: <GiSkills />,
-      links: "",
-      text: "Skills",
-      background: "skyblue",
-      id: "Skills",
-    },
-    {
-      icons: <MdWorkHistory />,
-      links: "",
-      text: "Experience and Education",
-      background: "#edd3ec",
-      id: "Expe_Edu",
-    },
-
-    {
-      icons: <RiProjector2Fill />,
-      links: "",
-      text: "Projects",
-      background: "#56a48c",
-      id: "Projects",
-    },
-    {
-      icons: <MdContactPhone />,
-      links: "",
-      text: "Contacts",
-      background: "#48a3a6",
-      id: "Contacts",
-    },
-  ];
   return (
     <MainLinkContainer>
       <div className="inner_container">
@@ -71,6 +26,51 @@ export default function LinkContainer() {
   );
 }
 
+export const linksIcon = [
+  {
+    icons: <FaUserAstronaut />,
+    links: "",
+    text: "About",
+    background: "#edd3ec",
+    id: "About",
+  },
+  {
+    icons: <FaFileAlt />,
+    links: "",
+    text: "Resume",
+    background: "#edd3ec",
+    id: "Resume",
+  },
+  {
+    icons: <GiSkills />,
+    links: "",
+    text: "Skills",
+    background: "skyblue",
+    id: "Skills",
+  },
+  {
+    icons: <MdWorkHistory />,
+    links: "",
+    text: "Experience and Education",
+    background: "#edd3ec",
+    id: "Expe_Edu",
+  },
+
+  {
+    icons: <RiProjector2Fill />,
+    links: "",
+    text: "Projects",
+    background: "#56a48c",
+    id: "Projects",
+  },
+  {
+    icons: <MdContactPhone />,
+    links: "",
+    text: "Contacts",
+    background: "#48a3a6",
+    id: "Contacts",
+  },
+];
 const MainLinkContainer = styled.div`
   display: flex;
   align-items: center;
@@ -82,7 +82,7 @@ const MainLinkContainer = styled.div`
     margin: auto;
   }
 `;
-const LinkContainerStyled = styled.div(({ background }) => ({
+export const LinkContainerStyled = styled.div(({ background }) => ({
   display: "flex",
   alignItems: "center",
   justifyContent: "center",
