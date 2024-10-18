@@ -3,20 +3,30 @@ import Sidebar from "../PortfolioComponent2/Sidebar";
 import styled from "@emotion/styled";
 import MiddleContaner from "../PortfolioComponent2/MiddleContaner";
 import LinkContainer from "../PortfolioComponent2/LinkContainer";
+import BottomNav from "../PortfolioComponent2/SidebarContent/BottomNav";
+import AnimatedCursor from "react-animated-cursor";
 
 export default function PortfolioVersion2() {
   return (
-    <MainPortfolioTwoContainer>
-      <div className="sidebarcontainer">
-        <Sidebar />
-      </div>
-      <div className="maincontainer">
-        <MiddleContaner />
-      </div>
-      <div className="linkcontainer">
-        <LinkContainer />
-      </div>
-    </MainPortfolioTwoContainer>
+    <>
+      <AnimatedCursor />
+
+      <MainPortfolioTwoContainer>
+        <div className="sidebarcontainer">
+          <Sidebar />
+        </div>
+        <div className="maincontainer">
+          <MiddleContaner />
+        </div>
+        <div className="linkcontainer">
+          <LinkContainer />
+        </div>
+      </MainPortfolioTwoContainer>
+
+      <BottomNavbarStyled>
+        <BottomNav />
+      </BottomNavbarStyled>
+    </>
   );
 }
 
@@ -59,16 +69,29 @@ const MainPortfolioTwoContainer = styled.div`
     border-radius: 20px;
   }
 
-  @media (min-width: 100px) and (max-width: 900px) {
+  @media (min-width: 100px) and (max-width: 1000px) {
+    width: 100%;
+
     .sidebarcontainer {
       display: none !important;
     }
+
     .maincontainer {
       width: 100%;
       margin-left: 0%;
     }
+
     .linkcontainer {
       display: none !important;
     }
+  }
+`;
+
+const BottomNavbarStyled = styled.div`
+  display: none;
+  border-radius: 20px;
+  overflow: hidden;
+  @media (min-width: 100px) and (max-width: 1000px) {
+    display: block;
   }
 `;

@@ -32,16 +32,16 @@ export default function About() {
           ref={typedElementRef}
         ></div> */}
         <p>
-          A Full-Stack Web Developer specializing in MERN Stack with good
-          proficiency in HTML, CSS, JS, ReactJS, Redux, NodeJS, ExpressJS,
-          MongoDB, Data Structures and Algorithms. Has a Problem-Solving mindset
-          and the ability to perform well in a team.
+          A Full-Stack Web Developer specializing in the MERN Stack, with
+          expertise in HTML, CSS, JavaScript, React, Node.js, and MongoDB. Over
+          the past 7 months, I’ve been working full-time as a developer, gaining
+          hands-on experience and building real-world projects.
         </p>
         <br />
         <p>
-          Acquired 1200+ hours of coding and hands-on experience in cloning
-          websites. Looking forward to working as an accountable and competent
-          professional in an exciting tech organization.
+          With a problem-solving mindset and strong collaboration skills, I’m
+          continuously improving and excited to keep growing as a competent
+          professional in a dynamic tech environment.
         </p>
       </div>
     </AboutContainerStyled>
