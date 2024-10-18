@@ -47,6 +47,39 @@ export default function BigProject() {
       liveURL: "https://faizanlms.vercel.app/",
       madeBy: "Individuel - Project",
     },
+
+    {
+      title: "Fc Food",
+      description:
+        "An experience Fc Food: Your gateway to gourmet pizzas, juicy burgers, exotic biryanis, and more. Delight in every bite!",
+      techStack: [
+        { name: "HTML" },
+        { name: "CSS" },
+        { name: "JavaScript" },
+        { name: "Bootstrap" },
+      ],
+      backgroundImage:
+        "https://user-images.githubusercontent.com/106812942/260703096-29803c53-ca47-4921-84de-97235c984ff6.png",
+      githubURL: "https://github.com/mdfaizan973/Food_Website",
+      liveURL: "https://food-fz.netlify.app/",
+      madeBy: "Individuel - Project",
+    },
+
+    {
+      title: "FashionZone",
+      description:
+        "FashionZone is a website where a person can buy clothes of their choice with famous brands.",
+      techStack: [
+        { name: "React" },
+        { name: "Axios" },
+        { name: "React-Router-Dom" },
+      ],
+      backgroundImage:
+        "https://user-images.githubusercontent.com/106812942/262247221-6b79b2f0-da86-4fcb-b4f7-8abe6439712e.png",
+      githubURL: "https://github.com/mdfaizan973/FashioZone/",
+      liveURL: "https://myfashionzonefz.netlify.app/",
+      madeBy: "Individuel - Project",
+    },
   ];
 
   const handleDetails = (ele = "") => {
