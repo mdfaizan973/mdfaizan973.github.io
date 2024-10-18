@@ -73,6 +73,20 @@ export default function Contact() {
           </SocialLink>
         ))}
       </SocialContainer>
+      <br />
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
+      >
+        <img
+          src="https://readme-typing-svg.herokuapp.com?font=Architects+Daughter&amp;color=red&amp;size=24&amp;lines=Thanks!+For+Visiting+My+Profile!;See+You+Next-Time+Hope+u+like+it...👨🏻‍💻;"
+          alt="Thank You"
+          style={{ marginLeft: "25px" }}
+        />
+      </div>
     </ContactWrapper>
   );
 }
