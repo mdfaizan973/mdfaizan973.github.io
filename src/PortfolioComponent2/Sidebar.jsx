@@ -7,6 +7,8 @@ import { ImLinkedin } from "react-icons/im";
 import { FaGithub, FaYoutube } from "react-icons/fa";
 import { BsTwitter } from "react-icons/bs";
 import ResumeButton from "./SidebarContent/ResumeButton";
+import MdFaizan_Resume from ".././MdFaizan_resume.pdf";
+
 export default function Sidebar() {
   const contectArray = [
     {
@@ -75,8 +77,24 @@ export default function Sidebar() {
           ))}
         </div>
 
-        <div className="resume_sectiion">
-          <ResumeButton />
+        <div
+          className="resume_sectiion"
+          onClick={() => {
+            window.open(
+              "https://drive.google.com/file/d/17ti5ypZ77muuZC6yulNyPwNkgbKfpEM2/view?usp=drive_link",
+              "_blank"
+            );
+          }}
+        >
+          <a
+            id="resume-link-1"
+            href={MdFaizan_Resume}
+            target="_blank"
+            rel="noreferrer"
+            download="MdFaizan_Resume.pdf"
+          >
+            <ResumeButton />
+          </a>
         </div>
       </SidebarContainerStyled>
     </>
