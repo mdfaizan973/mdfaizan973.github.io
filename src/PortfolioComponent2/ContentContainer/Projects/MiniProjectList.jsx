@@ -6,6 +6,30 @@ export default function MiniProjectList() {
   let mini_project_list = [
     {
       image:
+        "https://github.com/mdfaizan973/mdfaizan973/assets/106812942/a3f0797e-71b4-4d55-a9f0-a48d058e1ddc",
+      name: "FitnessFuel",
+      live: "https://frontend-iota-blond.vercel.app/",
+    },
+    {
+      image:
+        "https://user-images.githubusercontent.com/106812942/262247221-6b79b2f0-da86-4fcb-b4f7-8abe6439712e.png",
+      name: "FashionZone",
+      live: "https://myfashionzonefz.netlify.app/",
+    },
+    {
+      image:
+        "https://user-images.githubusercontent.com/106812942/255404404-dc6669bc-a638-4d99-95ed-5c4cf2b40cb9.png",
+      name: "RentEZ",
+      live: "https://yes-5otwzwn11-mdfaizan973.vercel.app/",
+    },
+    {
+      image:
+        "https://user-images.githubusercontent.com/106812942/221214462-36c35e3a-f00e-4c5f-a874-aadc6a6503d2.png",
+      name: "Sweets-Flowers",
+      live: "https://flowerfz.netlify.app/",
+    },
+    {
+      image:
         "https://user-images.githubusercontent.com/106812942/253805221-728fdb9e-b7e2-489c-9364-8cc527fd1a4e.png",
       name: "Cobra's Revenge",
       show: true,
@@ -128,7 +152,13 @@ const Wrapper = styled.div`
 const CollapseItem = styled.div`
   flex: 1 1 48%;
   max-width: 48%;
+  border-radius: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  }
   @media (max-width: 768px) {
     flex: 1 1 100%;
     max-width: 100%;

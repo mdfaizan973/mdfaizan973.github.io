@@ -6,7 +6,7 @@ export default function Experience() {
   const experiencearr = [
     {
       date: "April 2024 - Present",
-      courseName: "Front End Developer",
+      courseName: "Software Developer",
       instituteName: "Finalyca Pvt Ltd",
       color: "orange",
     },

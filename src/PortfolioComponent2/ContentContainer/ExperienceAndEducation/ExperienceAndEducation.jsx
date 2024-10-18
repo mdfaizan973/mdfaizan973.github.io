@@ -26,9 +26,11 @@ export default function ExperienceAndEducation() {
   const handleTabClick = (tab) => {
     setSelectedTab(tab);
   };
+
+  console.log(30, selectedTab);
   return (
     <EducationExperienceStyled id="Expe_Edu">
-      <HeaderSection title={"Education/Experience"} />
+      <HeaderSection title={selectedTab.tabName} />
       <TabsContainerStyled>
         {eduxpeTabArray &&
           eduxpeTabArray.map((ele, i) => (
