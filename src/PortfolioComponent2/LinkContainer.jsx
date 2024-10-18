@@ -1,6 +1,6 @@
 import styled from "@emotion/styled";
 import React from "react";
-import { FaUserAstronaut } from "react-icons/fa";
+import { FaGithub, FaUserAstronaut } from "react-icons/fa";
 import { RiProjector2Fill } from "react-icons/ri";
 import { FaFileAlt } from "react-icons/fa";
 import { MdContactPhone } from "react-icons/md";
@@ -34,13 +34,7 @@ export const linksIcon = [
     background: "#edd3ec",
     id: "About",
   },
-  {
-    icons: <FaFileAlt />,
-    links: "",
-    text: "Resume",
-    background: "#edd3ec",
-    id: "Resume",
-  },
+
   {
     icons: <GiSkills />,
     links: "",
@@ -62,6 +56,13 @@ export const linksIcon = [
     text: "Projects",
     background: "#56a48c",
     id: "Projects",
+  },
+  {
+    icons: <FaGithub />,
+    links: "",
+    text: "Github",
+    background: "#edd3ec",
+    id: "Github",
   },
   {
     icons: <MdContactPhone />,

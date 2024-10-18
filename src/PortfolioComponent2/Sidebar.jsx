@@ -58,10 +58,7 @@ export default function Sidebar() {
     <>
       <SidebarContainerStyled>
         <div className="profile_image">
-          <img
-            src="https://images.pexels.com/photos/771742/pexels-photo-771742.jpeg?auto=compress&cs=tinysrgb&w=600"
-            alt="profile"
-          />
+          <img src="https://i.ibb.co/zG6mT2x/unnamed.jpg" alt="profile" />
         </div>
         <h1 className="name">Md Faizan</h1>
         <div className="occupation border_card">Full Stack Developer</div>

@@ -2,6 +2,9 @@ import React from "react";
 import HeaderSection from "../../Helper/HeaderSection";
 import { MdEmail, MdLocationOn, MdWhatsapp } from "react-icons/md";
 import styled from "@emotion/styled";
+import { ImLinkedin } from "react-icons/im";
+import { FaGithub } from "react-icons/fa";
+import { HiOutlineMail, HiPhone } from "react-icons/hi";
 
 export default function Contact() {
   const contactList = [
@@ -19,10 +22,28 @@ export default function Contact() {
     },
   ];
 
+  const socialLinks = [
+    {
+      url: "https://www.linkedin.com/in/md-faizan-380a65246/",
+      icon: <ImLinkedin fontSize={"1.2rem"} />,
+    },
+    {
+      url: "https://github.com/mdfaizan973",
+      icon: <FaGithub fontSize={"1.2rem"} />,
+    },
+    {
+      url: "tel:6201855200",
+      icon: <HiPhone fontSize={"1.2rem"} />,
+    },
+    {
+      url: "https://faizan.md9735@gmail.com",
+      icon: <HiOutlineMail fontSize={"1.2rem"} />,
+    },
+  ];
+
   return (
     <ContactWrapper id="Contacts">
       <HeaderSection title={"Contacts"} />
-
       <ContentWrapper>
         <ContactList>
           {contactList.map((ele, i) => (
@@ -39,6 +60,19 @@ export default function Contact() {
           />
         </MapSection>
       </ContentWrapper>
+      <br />
+      <SocialContainer>
+        {socialLinks.map((link, index) => (
+          <SocialLink
+            key={index}
+            href={link.url}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {link.icon}
+          </SocialLink>
+        ))}
+      </SocialContainer>
     </ContactWrapper>
   );
 }
@@ -123,5 +157,33 @@ const StyledContact = styled.button`
     span {
       font-size: 16px;
     }
+  }
+`;
+
+const SocialContainer = styled.div`
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  padding: 10px 0;
+`;
+
+const SocialLink = styled.a`
+  background-color: #daf7f1;
+  color: white;
+  border-radius: 50%;
+  padding: 10px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  text-decoration: none;
+  color: black;
+  &:hover {
+    background-color: #367d82;
+    transform: translateY(-3px);
+  }
+
+  svg {
+    font-size: 1.2rem;
   }
 `;

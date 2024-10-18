@@ -30,6 +30,13 @@ const NavContainer = styled.div`
   padding: 10px 0;
   z-index: 1000;
   border-radius: 20px 20px 0 0;
+
+  flex-wrap: wrap;
+
+  @media (max-width: 600px) {
+    padding: 10px;
+    flex-wrap: wrap;
+  }
 `;
 
 const LinkContainerDIV = styled.div(({ background }) => ({
@@ -40,4 +47,24 @@ const LinkContainerDIV = styled.div(({ background }) => ({
   background: "#daf7f1",
   height: "40px",
   width: "40px",
+  transition: "background-color 0.3s ease, transform 0.3s ease",
+
+  /* Adjusting size for smaller screens */
+  "@media (max-width: 600px)": {
+    height: "30px",
+    width: "30px",
+  },
+
+  "&:hover": {
+    background: background || "#a0e6d3",
+    transform: "scale(1.1)",
+  },
+
+  a: {
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+    textDecoration: "none",
+    color: "#000",
+  },
 }));
