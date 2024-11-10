@@ -6,14 +6,20 @@ import LinkContainer from "../PortfolioComponent2/LinkContainer";
 import BottomNav from "../PortfolioComponent2/SidebarContent/BottomNav";
 import AnimatedCursor from "react-animated-cursor";
 import TopResumeButton from "../PortfolioComponent2/Helper/TopResumeButton";
+import Messages from "../PortfolioComponent2/Helper/Messages";
 
 export default function PortfolioVersion2() {
   return (
     <>
-      <AnimatedCursor />
+      {/* <AnimatedCursor /> */}
+
       <StickyContainer>
         <TopResumeButton />
       </StickyContainer>
+
+      <MessageStickyContainer>
+        <Messages />
+      </MessageStickyContainer>
 
       <MainPortfolioTwoContainer>
         <div className="sidebarcontainer">
@@ -44,7 +50,7 @@ const MainPortfolioTwoContainer = styled.div`
   /* font-family: cursive; */
 
   .sidebarcontainer {
-    width: 20%;
+    width: 320px; //28%
     /* box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; */
     height: 35rem;
     position: fixed;
@@ -64,7 +70,7 @@ const MainPortfolioTwoContainer = styled.div`
   }
 
   .linkcontainer {
-    width: 8%;
+    width: 125px; // 8%
     /* box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; */
     height: 35rem;
     position: fixed;
@@ -98,4 +104,11 @@ const StickyContainer = styled.div`
   @media (min-width: 100px) and (max-width: 1000px) {
     display: block;
   }
+`;
+
+const MessageStickyContainer = styled.div`
+  position: fixed;
+  top: 30px;
+  left: 30px;
+  z-index: 999;
 `;

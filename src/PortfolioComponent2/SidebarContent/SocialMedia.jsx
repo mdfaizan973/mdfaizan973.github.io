@@ -16,7 +16,7 @@ export default function SocialMedia(data) {
   );
 }
 
-const MediaContainerStyled = styled.div(({ color }) => ({
+export const MediaContainerStyled = styled.div(({ color }) => ({
   width: "20%",
   margin: "auto",
   borderRadius: "66% 34% 41% 59% / 55% 38% 62% 45% ",
