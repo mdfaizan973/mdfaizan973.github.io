@@ -12,7 +12,6 @@ export default function PortfolioVersion2() {
   return (
     <>
       {/* <AnimatedCursor /> */}
-
       <StickyContainer>
         <TopResumeButton />
       </StickyContainer>
