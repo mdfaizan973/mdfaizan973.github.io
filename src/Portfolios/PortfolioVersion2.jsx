@@ -109,5 +109,5 @@ const MessageStickyContainer = styled.div`
   position: fixed;
   top: 30px;
   left: 30px;
-  z-index: 999;
+  z-index: 9999 !important;
 `;

@@ -48,6 +48,7 @@ export default function Messages() {
   };
 
   const openNotification = () => {
+    console.log("click");
     api.open({
       message: "",
       description: (

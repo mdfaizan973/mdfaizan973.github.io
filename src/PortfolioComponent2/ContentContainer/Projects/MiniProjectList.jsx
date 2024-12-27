@@ -6,6 +6,12 @@ export default function MiniProjectList() {
   let mini_project_list = [
     {
       image:
+        "https://github.com/user-attachments/assets/8ad87c05-2cd0-4ce3-9934-e20ff78a88a4",
+      name: "FaizanTalks",
+      live: "https://faizantalks.vercel.app/",
+    },
+    {
+      image:
         "https://github.com/mdfaizan973/mdfaizan973/assets/106812942/a3f0797e-71b4-4d55-a9f0-a48d058e1ddc",
       name: "FitnessFuel",
       live: "https://frontend-iota-blond.vercel.app/",
