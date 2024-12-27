@@ -21,7 +21,7 @@ export default function Projects() {
   };
   return (
     <ProjectContainerStyled id="Projects">
-      <HeaderSection title={"Projects"} />
+      <HeaderSection title={selectedTab.tabName} />
       <TabsContainerStyled>
         {projectComponent &&
           projectComponent.map((ele, i) => (

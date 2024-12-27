@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import emailjs from "emailjs-com";
 import { Form, Input, Button, notification } from "antd";
 import { MessageOutlined, SendOutlined } from "@ant-design/icons";
