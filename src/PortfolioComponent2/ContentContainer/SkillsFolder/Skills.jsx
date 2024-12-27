@@ -29,7 +29,7 @@ export default function Skills() {
   };
   return (
     <SkillsContainerStyled id={"Skills"}>
-      <HeaderSection title={"Skills"} />
+      <HeaderSection title={`${selectedTab.tabName} Skills`} />
 
       <TabsContainerStyled>
         {tabsNames &&
