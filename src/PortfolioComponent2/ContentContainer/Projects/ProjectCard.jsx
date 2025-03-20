@@ -5,7 +5,7 @@ import { Tag } from "antd";
 export default function ProjectCard({ handleDetails, ele }) {
   return (
     <>
-      <ProjectCardStyled>
+      <ProjectCardStyled bg={ele.bg}>
         <CardOverlay>
           <CardContent>
             <CardHeader>
@@ -43,7 +43,8 @@ const ProjectCardStyled = styled.div`
   width: 300px;
   height: 250px;
   border-radius: 12px;
-  background-color: #daf7f1;
+  /* background-color: #daf7f1; */
+  background: ${({ bg }) => bg || "#daf7f1"}; /* Use prop or default */
   background-size: cover;
   background-position: center;
   display: flex;

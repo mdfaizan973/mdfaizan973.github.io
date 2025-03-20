@@ -84,6 +84,14 @@ export let mini_project_list = [
   },
   {
     image:
+      "https://user-images.githubusercontent.com/106812942/260703096-29803c53-ca47-4921-84de-97235c984ff6.png",
+    name: "Fc Food",
+    show: true,
+    live: "https://food-fz.netlify.app/",
+    github: "",
+  },
+  {
+    image:
       "https://user-images.githubusercontent.com/106812942/253805544-cd5ef2f3-2bf2-47b4-a157-6f85bc6645d6.png",
     name: "User Management System",
     show: true,

@@ -24,6 +24,7 @@ export default function BigProject() {
         "https://user-images.githubusercontent.com/106812942/278866276-08e3e6cb-0648-4adb-a9fa-891a98e27d33.png",
       githubURL: "https://github.com/mdfaizan973/ZC_ORG",
       liveURL: "https://organicstore.vercel.app/",
+      bg: "#daf7f1",
       madeBy: "Individuel - Project",
     },
 
@@ -45,23 +46,29 @@ export default function BigProject() {
         "https://github.com/mdfaizan973/EduHub-idea_clan/assets/106812942/ccee7c0f-1acd-4791-8208-b09b973f5cb1",
       githubURL: "https://github.com/mdfaizan973/EduHub-idea_clan",
       liveURL: "https://faizanlms.vercel.app/",
+      bg: "#B0E0E6",
       madeBy: "Individuel - Project",
     },
 
     {
-      title: "Fc Food",
+      title: "DropDock",
       description:
-        "An experience Fc Food: Your gateway to gourmet pizzas, juicy burgers, exotic biryanis, and more. Delight in every bite!",
+        "A secure and seamless document management platform where users can upload PDFs!",
       techStack: [
-        { name: "HTML" },
-        { name: "CSS" },
-        { name: "JavaScript" },
-        { name: "Bootstrap" },
+        { name: "React.js" },
+        { name: "Tailwind CSS" },
+        { name: "Node.js" },
+        { name: "Express.js" },
+        { name: "Mongo DB" },
+        { name: "Multer" },
+        { name: "React Router Dom" },
+        { name: "Axios" },
       ],
       backgroundImage:
-        "https://user-images.githubusercontent.com/106812942/260703096-29803c53-ca47-4921-84de-97235c984ff6.png",
-      githubURL: "https://github.com/mdfaizan973/Food_Website",
-      liveURL: "https://food-fz.netlify.app/",
+        "https://private-user-images.githubusercontent.com/106812942/420195799-225689b0-2279-47ce-86e2-9dbbf206bc6e.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDI0MjgwNjMsIm5iZiI6MTc0MjQyNzc2MywicGF0aCI6Ii8xMDY4MTI5NDIvNDIwMTk1Nzk5LTIyNTY4OWIwLTIyNzktNDdjZS04NmUyLTlkYmJmMjA2YmM2ZS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwMzE5JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDMxOVQyMzQyNDNaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1iYzU2NDc0YjJkNGVmYzY5NjhlNTVlMDUzY2JhODU1OTdlYmRlZjE0NTc0Mzk2YmUzZTE0ZDJmMzMyZDUzZmJiJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.M60zzGzgo2LZ2hZ8xW3MLOlzE8V8SyUgq-tylkTR99k",
+      githubURL: "https://github.com/mdfaizan973/PDF_Uploader",
+      liveURL: "https://pdf-dropdock.vercel.app/",
+      bg: "#FFB6C1",
       madeBy: "Individuel - Project",
     },
 
@@ -78,7 +85,8 @@ export default function BigProject() {
     //     "https://user-images.githubusercontent.com/106812942/262247221-6b79b2f0-da86-4fcb-b4f7-8abe6439712e.png",
     //   githubURL: "https://github.com/mdfaizan973/FashioZone/",
     //   liveURL: "https://myfashionzonefz.netlify.app/",
-    //   madeBy: "Individuel - Project",
+    // bg:"red",
+    // madeBy: "Individuel - Project",
     // },
 
     {
@@ -99,6 +107,7 @@ export default function BigProject() {
       githubURL:
         "https://github.com/hrithikvishwakarma001/incredible-birth-7157",
       liveURL: "https://clotho.vercel.app/",
+      bg: "#D8BFD8",
       madeBy: "Group - Project",
     },
   ];

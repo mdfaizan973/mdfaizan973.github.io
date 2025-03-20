@@ -8,7 +8,7 @@ export default function SingleData({ handleCancel, singleData }) {
 
   return (
     <div>
-      <Container>
+      <Container bg={singleData.bg}>
         <HeaderSection>
           <Title>{title}</Title>
           <Image src={backgroundImage} alt="Dashboard" />
@@ -45,7 +45,8 @@ const Container = styled.div`
   border-radius: 8px;
   width: 80%;
   margin: 0 auto;
-  background-color: #daf7f1;
+  /* background-color: #daf7f1; */
+  background: ${({ bg }) => bg || "#daf7f1"}; /* Use prop or default */
 
   box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 5px;
   transition: box-shadow 0.3s ease-in-out;
