@@ -34,8 +34,8 @@ export default function About() {
         <p>
           A Full-Stack Web Developer specializing in the MERN Stack, with
           expertise in HTML, CSS, JavaScript, React, Node.js, and MongoDB. Over
-          the past 9 months, I’ve been working full-time as a developer, gaining
-          hands-on experience and building real-world projects.
+          the past 1.5 years, I’ve been working full-time as a developer,
+          gaining hands-on experience and building real-world projects.
         </p>
         <br />
         <p>

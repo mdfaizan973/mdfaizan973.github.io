@@ -6,6 +6,16 @@ export default function FrontEndSkills() {
   const frontEndArray = [
     {
       image:
+        "https://user-images.githubusercontent.com/106812942/255093713-fc4acefd-5ae5-469a-ac28-75fff76f758a.png",
+      text: "React js",
+    },
+    {
+      image:
+        "https://user-images.githubusercontent.com/106812942/255086458-7f6be61d-ffe1-4096-af30-2a39e7b3ed6f.png",
+      text: "TypeScript",
+    },
+    {
+      image:
         "https://user-images.githubusercontent.com/106812942/255094909-ccb4d46c-a531-42e1-8d6a-300641127a91.png",
       text: "HTML",
     },
@@ -19,21 +29,12 @@ export default function FrontEndSkills() {
         "https://user-images.githubusercontent.com/106812942/255094159-1381596d-06ae-422b-9321-94903c9c6cb3.png",
       text: "JavaScript",
     },
-    {
-      image:
-        "https://user-images.githubusercontent.com/106812942/255086458-7f6be61d-ffe1-4096-af30-2a39e7b3ed6f.png",
-      text: "TypeScript",
-    },
-    {
-      image:
-        "https://user-images.githubusercontent.com/106812942/255093713-fc4acefd-5ae5-469a-ac28-75fff76f758a.png",
-      text: "React js",
-    },
-    {
-      image:
-        "https://user-images.githubusercontent.com/106812942/278868564-8627170b-5eb9-4d18-84e8-4d7096bb4079.png",
-      text: "Angular",
-    },
+
+    // {
+    //   image:
+    //     "https://user-images.githubusercontent.com/106812942/278868564-8627170b-5eb9-4d18-84e8-4d7096bb4079.png",
+    //   text: "Angular",
+    // },
     {
       image:
         "https://d2eip9sf3oo6c2.cloudfront.net/playlists/square_covers/000/505/265/square_480/chakra-lv1.png",
@@ -41,7 +42,8 @@ export default function FrontEndSkills() {
     },
     {
       image:
-        "https://static-00.iconduck.com/assets.00/ant-design-icon-2048x2046-dl3neb73.png",
+        // "https://static-00.iconduck.com/assets.00/ant-design-icon-2048x2046-dl3neb73.png",
+        "https://cdn.worldvectorlogo.com/logos/ant-design-2.svg",
       text: "Ant Design",
     },
     {
