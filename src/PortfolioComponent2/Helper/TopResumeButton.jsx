@@ -1,14 +1,14 @@
 import { DownloadIcon } from "@chakra-ui/icons";
 import styled from "@emotion/styled";
 import React from "react";
-import MdFaizan_Resume from "../../MdFaizan_resume.pdf";
+import MdFaizan_Resume from "../../MdFaizan_Resume.pdf";
 export default function TopResumeButton() {
   return (
     <ResumeContainerDiv>
       <StyledButton
         onClick={() => {
           window.open(
-            "https://drive.google.com/file/d/17ti5ypZ77muuZC6yulNyPwNkgbKfpEM2/view?usp=drive_link",
+            "https://drive.google.com/file/d/1uNP6is2xscGD8xRgcvNRBtDquXkyv7Os/view",
             "_blank"
           );
         }}

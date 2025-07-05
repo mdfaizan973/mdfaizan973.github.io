@@ -7,7 +7,7 @@ import { ImLinkedin } from "react-icons/im";
 import { FaGithub, FaYoutube } from "react-icons/fa";
 import { BsTwitter } from "react-icons/bs";
 import ResumeButton from "./SidebarContent/ResumeButton";
-import MdFaizan_Resume from ".././MdFaizan_resume.pdf";
+import MdFaizan_Resume from ".././MdFaizan_Resume.pdf";
 
 export default function Sidebar() {
   const contectArray = [
@@ -81,7 +81,7 @@ export default function Sidebar() {
           className="resume_sectiion"
           onClick={() => {
             window.open(
-              "https://drive.google.com/file/d/17ti5ypZ77muuZC6yulNyPwNkgbKfpEM2/view?usp=drive_link",
+              "https://drive.google.com/file/d/1uNP6is2xscGD8xRgcvNRBtDquXkyv7Os/view",
               "_blank"
             );
           }}

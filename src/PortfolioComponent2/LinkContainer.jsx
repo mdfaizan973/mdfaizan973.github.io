@@ -11,15 +11,18 @@ export default function LinkContainer() {
     <MainLinkContainer>
       <div className="inner_container">
         {linksIcon.map((ele, i) => (
-          <LinkContainerStyled
-            background={ele.background}
-            title={ele.text}
-            key={i}
-          >
-            <a href={`#${ele.id}`}>{ele.icons}</a>
+          <a href={`#${ele.id}`}>
+            {" "}
+            <LinkContainerStyled
+              background={ele.background}
+              title={ele.text}
+              key={i}
+            >
+              {ele.icons}
 
-            {/* <span style={{ fontSize: "0.7rem" }}>{ele.text}</span> */}
-          </LinkContainerStyled>
+              {/* <span style={{ fontSize: "0.7rem" }}>{ele.text}</span> */}
+            </LinkContainerStyled>
+          </a>
         ))}
       </div>
     </MainLinkContainer>
