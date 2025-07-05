@@ -13,7 +13,10 @@ export default function BigProject() {
       description:
         "An Organic Products website, Where person can buy all the Organics Food products.",
       techStack: [
-        { name: "React" },
+        { name: "React js" },
+        { name: "Node js" },
+        { name: "Espress js" },
+        { name: "Mongo DB" },
         { name: "HTML" },
         { name: "CSS" },
         { name: "JS" },
