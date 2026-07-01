@@ -60,7 +60,7 @@ export default function Sidebar() {
     <>
       <SidebarContainerStyled>
         <div className="profile_image">
-          <img src="https://i.ibb.co/zG6mT2x/unnamed.jpg" alt="profile" />
+          <img src="./Images/faizan-1.jpeg" alt="profile" />
         </div>
         <h1 className="name">Md Faizan</h1>
         <div className="occupation border_card">Full Stack Developer</div>
@@ -82,7 +82,7 @@ export default function Sidebar() {
           onClick={() => {
             window.open(
               "https://drive.google.com/file/d/1uNP6is2xscGD8xRgcvNRBtDquXkyv7Os/view",
-              "_blank"
+              "_blank",
             );
           }}
         >
@@ -107,13 +107,18 @@ const SidebarContainerStyled = styled.div`
     margin: auto;
     /* border-radius: 20px; */
     overflow: hidden;
-    height: 240px;
+    height: 220px;
     margin-top: -100px;
-    border-radius: 43% 57% 55% 45% / 27% 44% 56% 73%;
+    /* border-radius: 43% 57% 55% 45% / 27% 44% 56% 73%; */
+
+    /* border-radius: 30% 12% 26% 16%; */
+    /* border-radius: 30% 12% 26% 16%; */
+    border-radius: 20% 20% 20% 20%;
+
     border: 2px solid skyblue;
   }
   .profile_image img {
-    object-fit: cover;
+    object-fit: contain;
   }
 
   .name {

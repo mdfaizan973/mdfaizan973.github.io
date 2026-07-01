@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import HeaderSection from "../../Helper/HeaderSection";
 import { MdEmail, MdLocationOn, MdWhatsapp } from "react-icons/md";
 import styled from "@emotion/styled";
@@ -7,6 +7,15 @@ import { FaGithub } from "react-icons/fa";
 import { HiOutlineMail, HiPhone } from "react-icons/hi";
 
 export default function Contact() {
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
+
+  useEffect(() => {
+    const handleResize = () => setIsMobile(window.innerWidth <= 768);
+
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
   const contactList = [
     {
       icon: <MdWhatsapp color="white" size="24px" />,
@@ -54,11 +63,23 @@ export default function Contact() {
           ))}
         </ContactList>
         <MapSection>
-          <img
+          {/* <img
             style={{ borderRadius: "50%", height: "100%", width: "100%" }}
-            src="https://i.ibb.co/K7rjZTZ/Coming-1.png"
+            src="./Images/faizan-2.png"
+            // src="./Images/faizan-1.png"
+          /> */}
+          <img
+            src={isMobile ? "./Images/faizan-1.jpeg" : "./Images/faizan-2.png"}
+            alt="Md Faizan"
+            style={{
+              borderRadius: "50%",
+              width: "100%",
+              height: "100%",
+              objectFit: "cover",
+            }}
           />
         </MapSection>
+        s
       </ContentWrapper>
       <br />
       <SocialContainer>
@@ -147,7 +168,9 @@ const StyledContact = styled.button`
   font-size: 18px;
   margin-bottom: 15px;
   width: 100%;
-  transition: background-color 0.3s ease, transform 0.2s ease;
+  transition:
+    background-color 0.3s ease,
+    transform 0.2s ease;
   cursor: pointer;
 
   &:hover {
@@ -189,7 +212,9 @@ const SocialLink = styled.a`
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  transition: background-color 0.3s ease, transform 0.2s ease;
+  transition:
+    background-color 0.3s ease,
+    transform 0.2s ease;
   text-decoration: none;
   color: black;
   &:hover {
