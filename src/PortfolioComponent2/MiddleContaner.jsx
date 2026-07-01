@@ -6,6 +6,7 @@ import Projects from "./ContentContainer/Projects/Projects";
 import Contact from "./ContentContainer/Contacts/Contact";
 import Github from "./ContentContainer/GithubCertificate/Github";
 import styled from "@emotion/styled";
+import ForBrandsSection from "./ContentContainer/ForBrandsSection/ForBrandsSection";
 
 export default function MiddleContaner() {
   return (
@@ -21,6 +22,7 @@ export default function MiddleContaner() {
       <Projects />
       <Github />
       <Contact />
+      <ForBrandsSection />
     </div>
   );
 }

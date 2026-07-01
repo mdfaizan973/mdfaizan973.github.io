@@ -79,7 +79,6 @@ export default function Contact() {
             }}
           />
         </MapSection>
-        s
       </ContentWrapper>
       <br />
       <SocialContainer>

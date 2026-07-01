@@ -7,6 +7,7 @@ import BottomNav from "../PortfolioComponent2/SidebarContent/BottomNav";
 import AnimatedCursor from "react-animated-cursor";
 import TopResumeButton from "../PortfolioComponent2/Helper/TopResumeButton";
 import Messages from "../PortfolioComponent2/Helper/Messages";
+import ForBrandsSection from "../PortfolioComponent2/ContentContainer/ForBrandsSection/ForBrandsSection";
 
 export default function PortfolioVersion2() {
   return (
@@ -19,6 +20,7 @@ export default function PortfolioVersion2() {
       <MessageStickyContainer>
         <Messages />
       </MessageStickyContainer>
+      {/* <ForBrandsSection /> */}
 
       <MainPortfolioTwoContainer>
         <div className="sidebarcontainer">
@@ -45,7 +47,8 @@ const MainPortfolioTwoContainer = styled.div`
   padding: 10px;
   width: 90%;
   margin: 100px auto;
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", sans-serif !important;
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Roboto", sans-serif !important;
   /* font-family: cursive; */
 
   .sidebarcontainer {
