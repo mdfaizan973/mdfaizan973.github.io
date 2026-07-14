@@ -43,7 +43,7 @@ export default function Sidebar() {
     {
       icon: <ImLinkedin />,
       color: "skyblue",
-      link: "https://www.linkedin.com/in/md-faizan-380a65246/",
+      link: "https://www.linkedin.com/in/md-faizan-dev/",
     },
     {
       icon: <FaGithub />,

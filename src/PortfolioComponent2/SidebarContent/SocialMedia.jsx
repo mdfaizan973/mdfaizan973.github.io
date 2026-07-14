@@ -5,7 +5,8 @@ export default function SocialMedia(data) {
   const { icon, color, link } = data.data;
 
   const handleRedirect = () => {
-    window.location.href = `${link}`;
+    // window.location.href = `${link}`;
+    window.open(link, "_blank", "noopener,noreferrer");
   };
   return (
     <>

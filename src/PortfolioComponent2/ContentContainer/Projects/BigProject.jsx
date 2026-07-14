@@ -54,26 +54,47 @@ export default function BigProject() {
     },
 
     {
-      title: "DropDock",
-      description:
-        "A secure and seamless document management platform where users can upload PDFs!",
+      title: "Syncovo",
+      description: "The workspace platform that works the way your team works.",
       techStack: [
-        { name: "React.js" },
+        { name: "React" },
+        { name: "Node JS" },
         { name: "Tailwind CSS" },
-        { name: "Node.js" },
-        { name: "Express.js" },
-        { name: "Mongo DB" },
-        { name: "Multer" },
-        { name: "React Router Dom" },
-        { name: "Axios" },
+        { name: "Postgresql" },
+        { name: "HTML" },
+        { name: "CSS" },
+        { name: "JS" },
+        { name: "Express JS" },
       ],
       backgroundImage:
-        "https://private-user-images.githubusercontent.com/106812942/420195799-225689b0-2279-47ce-86e2-9dbbf206bc6e.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDI0MjgwNjMsIm5iZiI6MTc0MjQyNzc2MywicGF0aCI6Ii8xMDY4MTI5NDIvNDIwMTk1Nzk5LTIyNTY4OWIwLTIyNzktNDdjZS04NmUyLTlkYmJmMjA2YmM2ZS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwMzE5JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDMxOVQyMzQyNDNaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1iYzU2NDc0YjJkNGVmYzY5NjhlNTVlMDUzY2JhODU1OTdlYmRlZjE0NTc0Mzk2YmUzZTE0ZDJmMzMyZDUzZmJiJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.M60zzGzgo2LZ2hZ8xW3MLOlzE8V8SyUgq-tylkTR99k",
-      githubURL: "https://github.com/mdfaizan973/PDF_Uploader",
-      liveURL: "https://pdf-dropdock.vercel.app/",
-      bg: "#FFB6C1",
+        "https://github.com/user-attachments/assets/35aa6869-f144-4953-8d65-5e648019199b",
+      githubURL: "https://github.com/mdfaizan973/Syncovo",
+      liveURL: "https://syncovo.vercel.app/",
+      bg: "rgb(235, 151, 135)",
       madeBy: "Individuel - Project",
     },
+
+    // {
+    //   title: "DropDock",
+    //   description:
+    //     "A secure and seamless document management platform where users can upload PDFs!",
+    //   techStack: [
+    //     { name: "React.js" },
+    //     { name: "Tailwind CSS" },
+    //     { name: "Node.js" },
+    //     { name: "Express.js" },
+    //     { name: "Mongo DB" },
+    //     { name: "Multer" },
+    //     { name: "React Router Dom" },
+    //     { name: "Axios" },
+    //   ],
+    //   backgroundImage:
+    //     "https://private-user-images.githubusercontent.com/106812942/420195799-225689b0-2279-47ce-86e2-9dbbf206bc6e.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDI0MjgwNjMsIm5iZiI6MTc0MjQyNzc2MywicGF0aCI6Ii8xMDY4MTI5NDIvNDIwMTk1Nzk5LTIyNTY4OWIwLTIyNzktNDdjZS04NmUyLTlkYmJmMjA2YmM2ZS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwMzE5JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDMxOVQyMzQyNDNaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1iYzU2NDc0YjJkNGVmYzY5NjhlNTVlMDUzY2JhODU1OTdlYmRlZjE0NTc0Mzk2YmUzZTE0ZDJmMzMyZDUzZmJiJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.M60zzGzgo2LZ2hZ8xW3MLOlzE8V8SyUgq-tylkTR99k",
+    //   githubURL: "https://github.com/mdfaizan973/PDF_Uploader",
+    //   liveURL: "https://pdf-dropdock.vercel.app/",
+    //   bg: "#FFB6C1",
+    //   madeBy: "Individuel - Project",
+    // },
 
     // {
     //   title: "FashionZone",

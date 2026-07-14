@@ -4,10 +4,10 @@ import styled from "@emotion/styled";
 import MiddleContaner from "../PortfolioComponent2/MiddleContaner";
 import LinkContainer from "../PortfolioComponent2/LinkContainer";
 import BottomNav from "../PortfolioComponent2/SidebarContent/BottomNav";
-import AnimatedCursor from "react-animated-cursor";
+// import AnimatedCursor from "react-animated-cursor";
 import TopResumeButton from "../PortfolioComponent2/Helper/TopResumeButton";
 import Messages from "../PortfolioComponent2/Helper/Messages";
-import ForBrandsSection from "../PortfolioComponent2/ContentContainer/ForBrandsSection/ForBrandsSection";
+// import ForBrandsSection from "../PortfolioComponent2/ContentContainer/ForBrandsSection/ForBrandsSection";
 
 export default function PortfolioVersion2() {
   return (
