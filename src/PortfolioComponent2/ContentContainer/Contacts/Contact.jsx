@@ -33,7 +33,7 @@ export default function Contact() {
 
   const socialLinks = [
     {
-      url: "https://www.linkedin.com/in/md-faizan-380a65246/",
+      url: "https://www.linkedin.com/in/md-faizan-dev/",
       icon: <ImLinkedin fontSize={"1.2rem"} />,
     },
     {
